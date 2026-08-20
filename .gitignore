@@ -1,0 +1,8 @@
+runs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.vcd
+*.fst
+*.fsdb
