@@ -1,0 +1,16 @@
+net uart_rx
+pin uart_rx x -240 y 220 cell 2 layer 1 PinOrEquiv 1
+pin pin1 x 0 y 220 cell 1 layer 0 PinOrEquiv 1
+
+net reset
+pin reset x -240 y 440 cell 2 layer 1 PinOrEquiv 1
+pin pin2 x 0 y 440 cell 1 layer 0 PinOrEquiv 1
+
+net uart_tx
+pin uart_tx x -240 y 660 cell 2 layer 1 PinOrEquiv 1
+pin pin3 x 0 y 660 cell 1 layer 0 PinOrEquiv 1
+
+net clk
+pin clk x -290 y 880 cell 2 layer 1 PinOrEquiv 1
+pin pin4 x 0 y 880 cell 1 layer 0 PinOrEquiv 1
+

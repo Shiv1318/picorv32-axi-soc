@@ -1,0 +1,7 @@
+top.v
+mem_bridge.v
+rom_axi.v
+sram_axi.v
+uart_tx.v
+uart_axi.v
+picorv32.v

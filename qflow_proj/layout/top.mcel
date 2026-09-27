@@ -1,0 +1,52 @@
+cluster 1 name core
+corners 4 0 0   0 154687  154687 154687   154687 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal uart_rx
+softpin name pin2 signal reset
+softpin name pin3 signal uart_tx
+softpin name pin4 signal clk
+
+instance core_L
+corners 6 0 0 0 178616 89308 178616 89308 89308 178616 89308 178616 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal uart_rx
+softpin name pin2 signal reset
+softpin name pin3 signal uart_tx
+softpin name pin4 signal clk
+
+instance core_T
+corners 8 77343 0 77343 77343 0 77343 0 154686 232029 154686 232029 77343 154686 77343 154686 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal uart_rx
+softpin name pin2 signal reset
+softpin name pin3 signal uart_tx
+softpin name pin4 signal clk
+
+instance core_L2
+corners 6 0 0 0 138356 138356 138356 138356 69178 207534 69178 207534 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal uart_rx
+softpin name pin2 signal reset
+softpin name pin3 signal uart_tx
+softpin name pin4 signal clk
+
+pad 1 name twpin_clk
+corners 4 -40 -50 -40 50 40 50 40 -50
+pin name clk signal clk layer 1 0 0
+
+pad 2 name twpin_reset
+corners 4 -40 -50 -40 50 40 50 40 -50
+pin name reset signal reset layer 1 0 0
+
+pad 3 name twpin_uart_rx
+corners 4 -40 -50 -40 50 40 50 40 -50
+pin name uart_rx signal uart_rx layer 1 0 0
+
+pad 4 name twpin_uart_tx
+corners 4 -40 -50 -40 50 40 50 40 -50
+pin name uart_tx signal uart_tx layer 1 0 0
+

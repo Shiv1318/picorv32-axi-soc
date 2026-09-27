@@ -1,0 +1,96 @@
+
+TimberWolfMC version:v2.2 date:Mon May 25 21:18:34 EDT 1992
+Authors: Carl Sechen, Bill Swartz, Kai-Win Lee
+         Dahe Chen, and Jimmy Lam
+         Yale University
+
+
+TimberWolfMC switches:
+	Graphics mode on
+	TimberWolfMC will inherit window
+
+
+
+
+
+TimberWolf instructed to do placement of circuit:<top>
+track.pitch.x: 240
+track.pitch.y: 200
+chip.aspect.ratio: 0.75
+init_acc: 1.00
+
+The rand generator seed was: 12345
+
+
+The number of nets with  2 pins is 4
+The number of nets with 100 pins or more is 0
+The total number of nets is: 4
+The maximum number of pins on a single net is: 2
+
+Total cell area : 2.39e+10
+mean cell area : 2.39e+10      std deviation cell area : 0.00e+00
+mean short side : 1.38e+05      std deviation short side : 9.78e+04
+maxBinXG automatically set to:4
+maxBinYG automatically set to:3
+bdxlength:178618    bdylength:133963
+
+
+
+THE ROUTE COST OF THE CURRENT PLACEMENT: 1160
+THE PENALTY OF THE CURRENT PLACEMENT: 46340
+/apps/vlsi/lib/graywolf/bin/genrows -w top 33554434
+
+Initial Wiring Cost: 1160   Final Wiring Cost: 0
+############ Percent Wire Cost Reduction: 100
+
+
+Initial Wire Length: 1160   Final Wire Length: 0
+*********** Percent Wire Length Reduction: 100
+
+
+Initial Horiz. Wire: 1160   Final Horiz. Wire: 0
+$$$$$$$$$ Percent H-Wire Length Reduction: 100
+
+
+Initial Vert. Wire: 0   Final Vert. Wire: 0
+
+Statistics:
+Number of Cells: 1
+Number of Pads: 4
+Number of Nets: 4 
+Number of Pins: 8 
+
+
+************************************ 
+
+TimberWolf has completed its mission
+
+
+************************************ 
+
+
+
+Runtime Statistics
+-------------------------
+Machine name: jupyter-theshiv1313-gmail-com---0a8e849d
+Date        : Wed Sep 23 11:11:15 2026
+
+User    time:   0.1 seconds
+System  time:   0.0 seconds
+Elapsed time:   0.6 seconds
+
+Average resident text size       =     0K
+Average resident data+stack size =     0K
+Maximum resident size            =  2424K
+Virtual memory size              = -1822060320K
+Virtual memory limit             =     0K (0K)
+
+Major page faults = 2
+Minor page faults = 253
+Swaps = 0
+
+Input blocks = 35112
+Output blocks = 33560
+
+Context switch (voluntary) = 920
+Context switch (involuntary) = 9

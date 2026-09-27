@@ -1,0 +1,9 @@
+The paths:
+##############################################
+
+The nets:
+##############################################
+net   1:uart_rx xspan:290 yspan:0 length:290 numpins:2
+net   2:reset xspan:290 yspan:0 length:290 numpins:2
+net   3:uart_tx xspan:290 yspan:0 length:290 numpins:2
+net   4:clk xspan:290 yspan:0 length:290 numpins:2

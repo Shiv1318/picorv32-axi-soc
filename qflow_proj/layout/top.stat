@@ -1,0 +1,17 @@
+syntax version:v1.1 date:Mon May 25 21:11:10 EDT 1992
+TIMESTAMP:Wed Sep 23 11:11:14 2026
+Statistics for top:
+num_stdcells:23223
+num_macros:0
+num_instances:0
+num_pads:4
+num_nets:23228
+num_pins:78171
+num_implicit_feeds:119641
+num_equivs:119641
+num_unequivs:0
+num_ports:4
+macro_area:0.000e+00
+tot_length:23928240
+num_soft:1
+cell_height:1000

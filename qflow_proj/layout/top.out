@@ -1,0 +1,2367 @@
+
+TimberWolfSC version:v6.0 date:Mon May 25 21:19:07 EDT 1992
+Row-Based Placement and Global Routing Program
+Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
+         Yale University
+
+
+
+
+TimberWolf will perform a global route step
+feedThruWidth: 80
+track.pitch: 200
+route2act was not entered in the .par file
+route2act defaulted to track.pitch
+route2act: 200
+
+The random number generator seed is: 12345
+
+
+rowSep: 0.000000
+
+[get_stat_hints]:Found hints in <top.stat> file
+[get_stat_hints]:Total cells:23227 Number of nets:23228
+
+[add_swap_group]:Implicit swap group <_11413__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$pin> created
+[add_swap_group]:Implicit swap group <_12145__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <clk_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_2996__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_2975__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_3014__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_3008__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_5111_[2]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_10423__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_5048_[2]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <clk_bF$pin> created
+[add_swap_group]:Implicit swap group <resetn_bF$pin> created
+[add_swap_group]:Implicit swap group <_175__bF$pin> created
+[add_swap_group]:Implicit swap group <_3071__bF$pin> created
+[add_swap_group]:Implicit swap group <_3014__bF$pin> created
+[add_swap_group]:Implicit swap group <_3074__bF$pin> created
+[add_swap_group]:Implicit swap group <_2978__bF$pin> created
+[add_swap_group]:Implicit swap group <_2975__bF$pin> created
+[add_swap_group]:Implicit swap group <_3062__bF$pin> created
+[add_swap_group]:Implicit swap group <_2999__bF$pin> created
+[add_swap_group]:Implicit swap group <_2996__bF$pin> created
+[add_swap_group]:Implicit swap group <_3028__bF$pin> created
+[add_swap_group]:Implicit swap group <_278__bF$pin> created
+[add_swap_group]:Implicit swap group <_3026__bF$pin> created
+[add_swap_group]:Implicit swap group <_206__bF$pin> created
+[add_swap_group]:Implicit swap group <_35__bF$pin> created
+[add_swap_group]:Implicit swap group <_201__bF$pin> created
+[add_swap_group]:Implicit swap group <_16172__bF$pin> created
+[add_swap_group]:Implicit swap group <_3008__bF$pin> created
+[add_swap_group]:Implicit swap group <_3066__bF$pin> created
+[add_swap_group]:Implicit swap group <_3001__bF$pin> created
+[add_swap_group]:Implicit swap group <_3831__bF$pin> created
+[add_swap_group]:Implicit swap group <_2990__bF$pin> created
+[add_swap_group]:Implicit swap group <_173__bF$pin> created
+[add_swap_group]:Implicit swap group <_16540__bF$pin> created
+[add_swap_group]:Implicit swap group <_3687__bF$pin> created
+[add_swap_group]:Implicit swap group <_3542__bF$pin> created
+[add_swap_group]:Implicit swap group <_457__bF$pin> created
+[add_swap_group]:Implicit swap group <_3060__bF$pin> created
+[add_swap_group]:Implicit swap group <_3058__bF$pin> created
+[add_swap_group]:Implicit swap group <_3150__bF$pin> created
+[add_swap_group]:Implicit swap group <_3055__bF$pin> created
+[add_swap_group]:Implicit swap group <_3024__bF$pin> created
+[add_swap_group]:Implicit swap group <_3022__bF$pin> created
+[add_swap_group]:Implicit swap group <_3020__bF$pin> created
+[add_swap_group]:Implicit swap group <_3050__bF$pin> created
+[add_swap_group]:Implicit swap group <_3048__bF$pin> created
+[add_swap_group]:Implicit swap group <_444__bF$pin> created
+[add_swap_group]:Implicit swap group <_3046__bF$pin> created
+[add_swap_group]:Implicit swap group <_3034__bF$pin> created
+[add_swap_group]:Implicit swap group <_3032__bF$pin> created
+[add_swap_group]:Implicit swap group <_5264__bF$pin> created
+[add_swap_group]:Implicit swap group <_4761__bF$pin> created
+[add_swap_group]:Implicit swap group <_3030__bF$pin> created
+[add_swap_group]:Implicit swap group <_3003__bF$pin> created
+[add_swap_group]:Implicit swap group <_3102__bF$pin> created
+[add_swap_group]:Implicit swap group <_3018__bF$pin> created
+[add_swap_group]:Implicit swap group <_431__bF$pin> created
+[add_swap_group]:Implicit swap group <_3013__bF$pin> created
+[add_swap_group]:Implicit swap group <_3491__bF$pin> created
+[add_swap_group]:Implicit swap group <_3695__bF$pin> created
+[add_swap_group]:Implicit swap group <_3902__bF$pin> created
+[add_swap_group]:Implicit swap group <_2995__bF$pin> created
+[add_swap_group]:Implicit swap group <_2973__bF$pin> created
+[add_swap_group]:Implicit swap group <_3295__bF$pin> created
+[add_swap_group]:Implicit swap group <_3894__bF$pin> created
+[add_swap_group]:Implicit swap group <_3948__bF$pin> created
+[add_swap_group]:Implicit swap group <_3964__bF$pin> created
+[add_swap_group]:Implicit swap group <_3898__bF$pin> created
+[add_swap_group]:Implicit swap group <_3872__bF$pin> created
+[add_swap_group]:Implicit swap group <_3889__bF$pin> created
+[add_swap_group]:Implicit swap group <_3971__bF$pin> created
+[add_swap_group]:Implicit swap group <_3248__bF$pin> created
+[add_swap_group]:Implicit swap group <_3957__bF$pin> created
+[add_swap_group]:Implicit swap group <_3877__bF$pin> created
+[add_swap_group]:Implicit swap group <_3206__bF$pin> created
+[add_swap_group]:Implicit swap group <_3965__bF$pin> created
+[add_swap_group]:Implicit swap group <_3007__bF$pin> created
+[add_swap_group]:Implicit swap group <_3196__bF$pin> created
+[add_swap_group]:Implicit swap group <_3587__bF$pin> created
+[add_swap_group]:Implicit swap group <_3441__bF$pin> created
+[add_swap_group]:Implicit swap group <_3952__bF$pin> created
+[add_swap_group]:Implicit swap group <_3887__bF$pin> created
+[add_swap_group]:Implicit swap group <_3961__bF$pin> created
+[add_swap_group]:Implicit swap group <_3540__bF$pin> created
+[add_swap_group]:Implicit swap group <_3734__bF$pin> created
+[add_swap_group]:Implicit swap group <_3874__bF$pin> created
+[add_swap_group]:Implicit swap group <_3781__bF$pin> created
+[add_swap_group]:Implicit swap group <_3039__bF$pin> created
+[add_swap_group]:Implicit swap group <_3892__bF$pin> created
+[add_swap_group]:Implicit swap group <_3958__bF$pin> created
+[add_swap_group]:Implicit swap group <_3878__bF$pin> created
+[add_swap_group]:Implicit swap group <_3933__bF$pin> created
+[add_swap_group]:Implicit swap group <_3927__bF$pin> created
+[add_swap_group]:Implicit swap group <_3685__bF$pin> created
+[add_swap_group]:Implicit swap group <_3915__bF$pin> created
+[add_swap_group]:Implicit swap group <_3342__bF$pin> created
+[add_swap_group]:Implicit swap group <_3829__bF$pin> created
+[add_swap_group]:Implicit swap group <_3944__bF$pin> created
+[add_swap_group]:Implicit swap group <_3880__bF$pin> created
+[add_swap_group]:Implicit swap group <_3100__bF$pin> created
+[add_swap_group]:Implicit swap group <_3886__bF$pin> created
+[add_swap_group]:Implicit swap group <_3973__bF$pin> created
+[add_swap_group]:Implicit swap group <_3950__bF$pin> created
+[add_swap_group]:Implicit swap group <_3930__bF$pin> created
+[add_swap_group]:Implicit swap group <_3854__bF$pin> created
+[add_swap_group]:Implicit swap group <_3364__bF$pin> created
+[add_swap_group]:Implicit swap group <_3857__bF$pin> created
+[add_swap_group]:Implicit swap group <_3489__bF$pin> created
+[add_swap_group]:Implicit swap group <_3935__bF$pin> created
+[add_swap_group]:Implicit swap group <_3940__bF$pin> created
+[add_swap_group]:Implicit swap group <_3394__bF$pin> created
+[add_swap_group]:Implicit swap group <_3637__bF$pin> created
+[add_swap_group]:Implicit swap group <_3069__bF$pin> created
+[add_swap_group]:Implicit swap group <_3928__bF$pin> created
+[add_swap_group]:Implicit swap group <_3860__bF$pin> created
+[add_swap_group]:Implicit swap group <_3390__bF$pin> created
+[add_swap_group]:Implicit swap group <_3900__bF$pin> created
+[add_swap_group]:Implicit swap group <_3633__bF$pin> created
+[add_swap_group]:Implicit swap group <_3525__bF$pin> created
+[add_swap_group]:Implicit swap group <_3148__bF$pin> created
+[add_swap_group]:Implicit swap group <_3906__bF$pin> created
+[add_swap_group]:Implicit swap group <_3976__bF$pin> created
+[add_swap_group]:Implicit swap group <_3861__bF$pin> created
+[add_swap_group]:Implicit swap group <_3866__bF$pin> created
+[add_swap_group]:Implicit swap group <_3870__bF$pin> created
+[add_swap_group]:Implicit swap group <_3855__bF$pin> created
+[add_swap_group]:Implicit swap group <_194__bF$pin> created
+[add_swap_group]:Implicit swap group <_3589__bF$pin> created
+[add_swap_group]:Implicit swap group <_5268__bF$pin> created
+[add_swap_group]:Implicit swap group <_3041__bF$pin> created
+[add_swap_group]:Implicit swap group <_82__bF$pin> created
+[add_swap_group]:Implicit swap group <_3527__bF$pin> created
+[add_swap_group]:Implicit swap group <_393__bF$pin> created
+[add_swap_group]:Implicit swap group <_3443__bF$pin> created
+[add_swap_group]:Implicit swap group <_3344__bF$pin> created
+[add_swap_group]:Implicit swap group <_2988__bF$pin> created
+[add_swap_group]:Implicit swap group <_16344__bF$pin> created
+[add_swap_group]:Implicit swap group <_3250__bF$pin> created
+[add_swap_group]:Implicit swap group <_2986__bF$pin> created
+[add_swap_group]:Implicit swap group <_3635__bF$pin> created
+[add_swap_group]:Implicit swap group <_2984__bF$pin> created
+[add_swap_group]:Implicit swap group <_2982__bF$pin> created
+[add_swap_group]:Implicit swap group <_16078__bF$pin> created
+[add_swap_group]:Implicit swap group <_2980__bF$pin> created
+[add_swap_group]:Implicit swap group <_2967__bF$pin> created
+[add_swap_group]:Implicit swap group <_16031__bF$pin> created
+[add_swap_group]:Implicit swap group <_16218__bF$pin> created
+[add_swap_group]:Implicit swap group <_15984__bF$pin> created
+[add_swap_group]:Implicit swap group <_15938__bF$pin> created
+[add_swap_group]:Implicit swap group <_3366__bF$pin> created
+[add_swap_group]:Implicit swap group <_15890__bF$pin> created
+[add_swap_group]:Implicit swap group <_15843__bF$pin> created
+[add_swap_group]:Implicit swap group <_314__bF$pin> created
+[add_swap_group]:Implicit swap group <_3639__bF$pin> created
+[add_swap_group]:Implicit swap group <_15797__bF$pin> created
+[add_swap_group]:Implicit swap group <_3015__bF$pin> created
+[add_swap_group]:Implicit swap group <_15749__bF$pin> created
+[add_swap_group]:Implicit swap group <_15703__bF$pin> created
+[add_swap_group]:Implicit swap group <_14821__bF$pin> created
+[add_swap_group]:Implicit swap group <_3297__bF$pin> created
+[add_swap_group]:Implicit swap group <_3783__bF$pin> created
+[add_swap_group]:Implicit swap group <_3736__bF$pin> created
+[add_swap_group]:Implicit swap group <_3208__bF$pin> created
+[add_swap_group]:Implicit swap group <_229__bF$pin> created
+[add_swap_group]:Implicit swap group <_3198__bF$pin> created
+[add_swap_group]:Implicit swap group <_264__bF$pin> created
+[add_swap_group]:Implicit swap group <_3396__bF$pin> created
+[add_swap_group]:Implicit swap group <_3011__bF$pin> created
+[add_swap_group]:Implicit swap group <_16296__bF$pin> created
+[add_swap_group]:Implicit swap group <_114__bF$pin> created
+[add_swap_group]:Implicit swap group <_2997__bF$pin> created
+[add_swap_group]:Implicit swap group <_3009__bF$pin> created
+[add_swap_group]:Implicit swap group <_2976__bF$pin> created
+[add_swap_group]:Implicit swap group <_16513__bF$pin> created
+[add_swap_group]:Implicit swap group <_3392__bF$pin> created
+[add_swap_group]:Implicit swap group <_15771__bF$pin> created
+[add_swap_group]:Implicit swap group <_16169__bF$pin> created
+[add_swap_group]:Implicit swap group <_16016__bF$pin> created
+[add_swap_group]:Implicit swap group <_16317__bF$pin> created
+[add_swap_group]:Implicit swap group <_2968__bF$pin> created
+[add_swap_group]:Implicit swap group <_2992__bF$pin> created
+[add_swap_group]:Implicit swap group <_4354__bF$pin> created
+[add_swap_group]:Implicit swap group <_4347__bF$pin> created
+[add_swap_group]:Implicit swap group <_4327__bF$pin> created
+[add_swap_group]:Implicit swap group <_4329__bF$pin> created
+[add_swap_group]:Implicit swap group <_4349__bF$pin> created
+[add_swap_group]:Implicit swap group <_4337__bF$pin> created
+[add_swap_group]:Implicit swap group <_4335__bF$pin> created
+[add_swap_group]:Implicit swap group <_11359__bF$pin> created
+[add_swap_group]:Implicit swap group <_11598__bF$pin> created
+[add_swap_group]:Implicit swap group <_11602__bF$pin> created
+[add_swap_group]:Implicit swap group <_11599__bF$pin> created
+[add_swap_group]:Implicit swap group <_11365__bF$pin> created
+[add_swap_group]:Implicit swap group <_11371__bF$pin> created
+[add_swap_group]:Implicit swap group <_11378__bF$pin> created
+[add_swap_group]:Implicit swap group <_11385__bF$pin> created
+[add_swap_group]:Implicit swap group <_11392__bF$pin> created
+[add_swap_group]:Implicit swap group <_11399__bF$pin> created
+[add_swap_group]:Implicit swap group <_10609__bF$pin> created
+[add_swap_group]:Implicit swap group <_6084__bF$pin> created
+[add_swap_group]:Implicit swap group <_12187__bF$pin> created
+[add_swap_group]:Implicit swap group <trap_bF$pin> created
+[add_swap_group]:Implicit swap group <_7747__bF$pin> created
+[add_swap_group]:Implicit swap group <_11417__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf15_bF$pin> created
+[add_swap_group]:Implicit swap group <_7748__bF$pin> created
+[add_swap_group]:Implicit swap group <_11421__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf14_bF$pin> created
+[add_swap_group]:Implicit swap group <_11996__bF$pin> created
+[add_swap_group]:Implicit swap group <_11427__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf13_bF$pin> created
+[add_swap_group]:Implicit swap group <_11432__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf12_bF$pin> created
+[add_swap_group]:Implicit swap group <_11438__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf11_bF$pin> created
+[add_swap_group]:Implicit swap group <_11446__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf10_bF$pin> created
+[add_swap_group]:Implicit swap group <_11453__bF$pin> created
+[add_swap_group]:Implicit swap group <_11295__bF$buf9_bF$pin> created
+[add_swap_group]:Implicit swap group <_11460__bF$pin> created
+[add_swap_group]:Implicit swap group <_11467__bF$pin> created
+[add_swap_group]:Implicit swap group <_11473__bF$pin> created
+[add_swap_group]:Implicit swap group <_11480__bF$pin> created
+[add_swap_group]:Implicit swap group <_11487__bF$pin> created
+[add_swap_group]:Implicit swap group <_11493__bF$pin> created
+[add_swap_group]:Implicit swap group <_11498__bF$pin> created
+[add_swap_group]:Implicit swap group <_11506__bF$pin> created
+[add_swap_group]:Implicit swap group <_11512__bF$pin> created
+[add_swap_group]:Implicit swap group <_11520__bF$pin> created
+[add_swap_group]:Implicit swap group <_11526__bF$pin> created
+[add_swap_group]:Implicit swap group <_11532__bF$pin> created
+[add_swap_group]:Implicit swap group <_11540__bF$pin> created
+[add_swap_group]:Implicit swap group <_11546__bF$pin> created
+[add_swap_group]:Implicit swap group <_11552__bF$pin> created
+[add_swap_group]:Implicit swap group <_11559__bF$pin> created
+[add_swap_group]:Implicit swap group <_11567__bF$pin> created
+[add_swap_group]:Implicit swap group <_11827__bF$pin> created
+[add_swap_group]:Implicit swap group <_7745__bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf15_bF$pin> created
+[add_swap_group]:Implicit swap group <_12186__bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf14_bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf13_bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf12_bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf11_bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf10_bF$pin> created
+[add_swap_group]:Implicit swap group <_11329__bF$buf9_bF$pin> created
+[add_swap_group]:Implicit swap group <_7303__bF$pin> created
+[add_swap_group]:Implicit swap group <_7742__bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf15_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf14_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf13_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf12_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf11_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf10_bF$pin> created
+[add_swap_group]:Implicit swap group <_11413__bF$buf9_bF$pin> created
+[add_swap_group]:Implicit swap group <_7740__bF$pin> created
+[add_swap_group]:Implicit swap group <_7302__bF$pin> created
+[add_swap_group]:Implicit swap group <_7737__bF$pin> created
+[add_swap_group]:Implicit swap group <_7738__bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.mem_do_rinst_bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.mem_do_prefetch_bF$pin> created
+[add_swap_group]:Implicit swap group <_11750__bF$pin> created
+[add_swap_group]:Implicit swap group <_10536__bF$pin> created
+[add_swap_group]:Implicit swap group <_10340__bF$pin> created
+[add_swap_group]:Implicit swap group <_12085__bF$pin> created
+[add_swap_group]:Implicit swap group <_10348__bF$pin> created
+[add_swap_group]:Implicit swap group <_10345__bF$pin> created
+[add_swap_group]:Implicit swap group <_10423__bF$pin> created
+[add_swap_group]:Implicit swap group <_10422__bF$pin> created
+[add_swap_group]:Implicit swap group <_10425__bF$pin> created
+[add_swap_group]:Implicit swap group <_10361__bF$pin> created
+[add_swap_group]:Implicit swap group <_10319__bF$pin> created
+[add_swap_group]:Implicit swap group <_7735__bF$pin> created
+[add_swap_group]:Implicit swap group <_11783__bF$pin> created
+[add_swap_group]:Implicit swap group <_10371__bF$pin> created
+[add_swap_group]:Implicit swap group <_7295__bF$pin> created
+[add_swap_group]:Implicit swap group <_7732__bF$pin> created
+[add_swap_group]:Implicit swap group <_7943__bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.decoder_trigger_bF$pin> created
+[add_swap_group]:Implicit swap group <_11808__bF$pin> created
+[add_swap_group]:Implicit swap group <_11812__bF$pin> created
+[add_swap_group]:Implicit swap group <_12228__bF$pin> created
+[add_swap_group]:Implicit swap group <_7794__bF$pin> created
+[add_swap_group]:Implicit swap group <_11954__bF$pin> created
+[add_swap_group]:Implicit swap group <_11764__bF$pin> created
+[add_swap_group]:Implicit swap group <_11731__bF$pin> created
+[add_swap_group]:Implicit swap group <_7670__bF$pin> created
+[add_swap_group]:Implicit swap group <_12157__bF$pin> created
+[add_swap_group]:Implicit swap group <_12076__bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf14_bF$pin> created
+[add_swap_group]:Implicit swap group <_12161__bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf13_bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf12_bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf11_bF$pin> created
+[add_swap_group]:Implicit swap group <_12145__bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf10_bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf9_bF$pin> created
+[add_swap_group]:Implicit swap group <_12154__bF$buf8_bF$pin> created
+[add_swap_group]:Implicit swap group <_11809__bF$pin> created
+[add_swap_group]:Implicit swap group <_11997__bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.decoder_pseudo_trigger_bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.instr_jal_bF$pin> created
+[add_swap_group]:Implicit swap group <_11807__bF$pin> created
+[add_swap_group]:Implicit swap group <_12518__bF$pin> created
+[add_swap_group]:Implicit swap group <_12184__bF$pin> created
+[add_swap_group]:Implicit swap group <_13132__bF$pin> created
+[add_swap_group]:Implicit swap group <_11956__bF$pin> created
+[add_swap_group]:Implicit swap group <_11994__bF$pin> created
+[add_swap_group]:Implicit swap group <_7772__bF$pin> created
+[add_swap_group]:Implicit swap group <_11411__bF$pin> created
+[add_swap_group]:Implicit swap group <_11328__bF$pin> created
+[add_swap_group]:Implicit swap group <_11294__bF$pin> created
+[add_swap_group]:Implicit swap group <_11261__bF$pin> created
+[add_swap_group]:Implicit swap group <_11262__bF$pin> created
+[add_swap_group]:Implicit swap group <_11228__bF$pin> created
+[add_swap_group]:Implicit swap group <_11196__bF$pin> created
+[add_swap_group]:Implicit swap group <_11164__bF$pin> created
+[add_swap_group]:Implicit swap group <_11130__bF$pin> created
+[add_swap_group]:Implicit swap group <_11131__bF$pin> created
+[add_swap_group]:Implicit swap group <_11097__bF$pin> created
+[add_swap_group]:Implicit swap group <_11065__bF$pin> created
+[add_swap_group]:Implicit swap group <_11033__bF$pin> created
+[add_swap_group]:Implicit swap group <_11000__bF$pin> created
+[add_swap_group]:Implicit swap group <_11001__bF$pin> created
+[add_swap_group]:Implicit swap group <_10967__bF$pin> created
+[add_swap_group]:Implicit swap group <_10935__bF$pin> created
+[add_swap_group]:Implicit swap group <_10903__bF$pin> created
+[add_swap_group]:Implicit swap group <_10870__bF$pin> created
+[add_swap_group]:Implicit swap group <_10871__bF$pin> created
+[add_swap_group]:Implicit swap group <_10837__bF$pin> created
+[add_swap_group]:Implicit swap group <_10805__bF$pin> created
+[add_swap_group]:Implicit swap group <_10773__bF$pin> created
+[add_swap_group]:Implicit swap group <_10739__bF$pin> created
+[add_swap_group]:Implicit swap group <_10741__bF$pin> created
+[add_swap_group]:Implicit swap group <_10707__bF$pin> created
+[add_swap_group]:Implicit swap group <_10675__bF$pin> created
+[add_swap_group]:Implicit swap group <_10643__bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.latched_stalu_bF$pin> created
+[add_swap_group]:Implicit swap group <_11957__bF$pin> created
+[add_swap_group]:Implicit swap group <_11781__bF$pin> created
+[add_swap_group]:Implicit swap group <_10382__bF$pin> created
+[add_swap_group]:Implicit swap group <_11596__bF$pin> created
+[add_swap_group]:Implicit swap group <u_cpu.instr_sub_bF$pin> created
+[add_swap_group]:Implicit swap group <_12540__bF$pin> created
+[add_swap_group]:Implicit swap group <_12546__bF$pin> created
+[add_swap_group]:Implicit swap group <_12549__bF$pin> created
+[add_swap_group]:Implicit swap group <_12542__bF$pin> created
+[add_swap_group]:Implicit swap group <u_uart.tx_busy_bF$pin> created
+[add_extra_cells]:Added 3465 spacer cells to the gate array
+total cell length: 23928240
+total block length: 24001812
+block x-span:179118  block y-span:134000
+
+
+TIMING FACTOR (COMPUTED) : 4.000000
+Using default value of bin.penalty.control:1.000000
+Original Average Cell Width:1030.000000
+Adjusted Average Cell Width:656.000000
+numBinsG automatically set to:274
+binWidthG = 656
+average_cell_width is:656
+standard deviation of cell length is:738.26
+TimberWolfSC starting from the beginning
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 1827628314
+
+WARNING[findcost]:Net <gnd> has 121 pins
+WARNING[findcost]:Net <gnd> has 121 pins
+The number of nets with 1 pins is 90
+The number of nets with 2 pins is 14589
+The number of nets with 3 pins is 3625
+The number of nets with 4 pins is 1039
+The number of nets with 5 pins is 323
+The number of nets with 6 pins is 344
+The number of nets with 7 pins is 970
+The number of nets with 8 pins is 598
+The number of nets with 9 pins is 957
+The number of nets with 10 pins is 139
+The number of nets with 11 pins is 30
+The number of nets with 12 pins is 37
+The number of nets with 13 pins is 91
+The number of nets with 14 pins is 15
+The number of nets with 15 pins is 2
+The number of nets with 16 pins is 189
+The number of nets with 17 pins is 188
+The number of nets with 78 pins is 1
+The number of nets with 100 pins or more is 1
+Average number of pins per net = 3.360313
+The maximum number of pins on a single net is:121
+
+Percentage of Nets Connecting to at least 2 cells:1.00
+Percentage of Nets Connecting to at least 3 cells:0.37
+Percentage of Nets Connecting to at least 4 cells:0.21
+Percentage of Nets Connecting to at least 5 cells:0.17
+Percentage of Nets Connecting to at least 6 cells:0.15
+
+bdxlen:181040  bdylen:134600
+l:-239  t:134100  r:180801  b:-500
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 1827291476
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 1479236
+block:1 desire:179118
+block:2 desire:179118
+block:3 desire:179118
+block:4 desire:179118
+block:5 desire:179118
+block:6 desire:179118
+block:7 desire:179118
+block:8 desire:179118
+block:9 desire:179118
+block:10 desire:179118
+block:11 desire:179118
+block:12 desire:179118
+block:13 desire:179118
+block:14 desire:179118
+block:15 desire:179118
+block:16 desire:179118
+block:17 desire:179118
+block:18 desire:179118
+block:19 desire:179118
+block:20 desire:179118
+block:21 desire:179118
+block:22 desire:179118
+block:23 desire:179118
+block:24 desire:179118
+block:25 desire:179118
+block:26 desire:179118
+block:27 desire:179118
+block:28 desire:179118
+block:29 desire:179118
+block:30 desire:179118
+block:31 desire:179118
+block:32 desire:179118
+block:33 desire:179118
+block:34 desire:179118
+block:35 desire:179118
+block:36 desire:179118
+block:37 desire:179118
+block:38 desire:179118
+block:39 desire:179118
+block:40 desire:179118
+block:41 desire:179118
+block:42 desire:179118
+block:43 desire:179118
+block:44 desire:179118
+block:45 desire:179118
+block:46 desire:179118
+block:47 desire:179118
+block:48 desire:179118
+block:49 desire:179118
+block:50 desire:179118
+block:51 desire:179118
+block:52 desire:179118
+block:53 desire:179118
+block:54 desire:179118
+block:55 desire:179118
+block:56 desire:179118
+block:57 desire:179118
+block:58 desire:179118
+block:59 desire:179118
+block:60 desire:179118
+block:61 desire:179118
+block:62 desire:179118
+block:63 desire:179118
+block:64 desire:179118
+block:65 desire:179118
+block:66 desire:179118
+block:67 desire:179118
+block:68 desire:179118
+block:69 desire:179118
+block:70 desire:179118
+block:71 desire:179118
+block:72 desire:179118
+block:73 desire:179118
+block:74 desire:179118
+block:75 desire:179118
+block:76 desire:179118
+block:77 desire:179118
+block:78 desire:179118
+block:79 desire:179118
+block:80 desire:179118
+block:81 desire:179118
+block:82 desire:179118
+block:83 desire:179118
+block:84 desire:179118
+block:85 desire:179118
+block:86 desire:179118
+block:87 desire:179118
+block:88 desire:179118
+block:89 desire:179118
+block:90 desire:179118
+block:91 desire:179118
+block:92 desire:179118
+block:93 desire:179118
+block:94 desire:179118
+block:95 desire:179118
+block:96 desire:179118
+block:97 desire:179118
+block:98 desire:179118
+block:99 desire:179118
+block:100 desire:179118
+block:101 desire:179118
+block:102 desire:179118
+block:103 desire:179118
+block:104 desire:179118
+block:105 desire:179118
+block:106 desire:179118
+block:107 desire:179118
+block:108 desire:179118
+block:109 desire:179118
+block:110 desire:179118
+block:111 desire:179118
+block:112 desire:179118
+block:113 desire:179118
+block:114 desire:179118
+block:115 desire:179118
+block:116 desire:179118
+block:117 desire:179118
+block:118 desire:179118
+block:119 desire:179118
+block:120 desire:179118
+block:121 desire:179118
+block:122 desire:179118
+block:123 desire:179118
+block:124 desire:179118
+block:125 desire:179118
+block:126 desire:179118
+block:127 desire:179118
+block:128 desire:179118
+block:129 desire:179118
+block:130 desire:179118
+block:131 desire:179118
+block:132 desire:179118
+block:133 desire:179118
+block:134 desire:179118
+Total Desired Length: 24001812
+
+Iter T        fds    Wire     Penal  Time     P_lim  err binC  rowC timeC  s/p  rej. Acc. g_sw Vwt
+ -1: 0.00e+00      0 -1008503265 2839708 0       999999 0.00 1.00  6.00  3.00 0.00 0.00 0.951
+  0: 7.08e+05      0 -1012352212 2688664 0       999999 0.00 1.00  6.00  3.00 0.48 0.00 0.951 0.99
+  1: 6.83e+05      0 -1014985174 2645932 0       999999 0.00 1.00  6.00  3.00 0.48 0.00 0.951 0.99
+  2: 5.19e+05      0 -1050326334 2509780 0       999999 0.00 1.00  6.00  3.00 0.48 0.00 0.942 0.99
+  3: 3.60e+05      0 -1091331621 2574728 0       800423 0.00 1.00  6.00  3.00 0.48 0.00 0.919 0.99
+  4: 2.57e+05      0 -1163467251 2308660 0       634616 0.00 1.00  6.00  3.00 0.50 0.00 0.885 0.98
+  5: 2.00e+05      0 -1222696163 2416820 0       522026 0.00 1.00  6.00  3.00 0.51 0.00 0.847 0.97
+  6: 1.66e+05      0 -1289966175 1985936 0       455369 0.00 1.00  6.00  3.00 0.51 0.00 0.811 0.97
+  7: 1.44e+05      0 -1335519991 1952508 0       412734 0.00 1.00  6.00  3.00 0.52 0.00 0.780 0.96
+  8: 1.28e+05      0 -1393733868 1953796 0       381502 0.00 1.00  6.00  3.00 0.53 0.00 0.750 0.96
+  9: 1.15e+05      0 -1440717836 1767680 0       357839 0.00 1.00  6.00  3.00 0.54 0.00 0.723 0.95
+ 10: 1.05e+05      0 -1494587709 1755224 0       338334 0.00 1.00  6.00  3.00 0.55 0.00 0.697 0.95
+ 11: 9.65e+04      0 -1546256732 1617308 0       321565 0.00 1.00  6.00  3.00 0.56 0.00 0.671 0.94
+ 12: 8.93e+04      0 -1597746293 1637308 0       305780 0.00 1.00  6.00  3.00 0.56 0.00 0.648 0.94
+ 13: 8.32e+04      0 -1630055288 1471712 0       294126 0.00 1.00  6.00  3.00 0.57 0.00 0.625 0.93
+ 14: 7.77e+04      0 -1671426533 1518420 0       281942 0.00 1.00  6.00  3.00 0.58 0.00 0.603 0.93
+ 15: 7.32e+04      0 -1721091300 1418944 0       270530 0.00 1.00  6.00  3.00 0.59 0.00 0.581 0.92
+ 16: 6.90e+04      0 -1762183176 1471884 0       260302 0.00 1.00  6.00  3.00 0.60 0.00 0.561 0.92
+ 17: 6.54e+04      0 -1803374803 1264692 0       251442 0.00 1.00  6.00  3.00 0.60 0.00 0.541 0.91
+ 18: 6.20e+04      0 -1841792927 1192996 0       243387 0.00 1.00  6.00  3.00 0.61 0.00 0.522 0.90
+ 19: 5.92e+04      0 -1883003758 1172984 0       234705 0.00 1.00  6.00  3.00 0.62 0.00 0.503 0.90
+ 20: 5.66e+04      0 -1936035989 1105004 0       227351 0.00 1.00  6.00  3.00 0.63 0.00 0.486 0.89
+ 21: 5.42e+04      0 -1992073532 982436 0       220625 0.00 1.00  6.00  3.00 0.64 0.00 0.468 0.89
+ 22: 5.32e+04      0 -2054082756 1008848 0       214261 0.00 1.00  6.00  3.00 0.64 0.00 0.450 0.89
+ 23: 5.33e+04      0 -2110906958 1179388 0       210826 0.00 1.00  6.01  3.00 0.65 0.00 0.440 0.88
+ 24: 5.38e+04      0 -2132729956 1146084 0       210151 0.00 1.00  6.03  3.00 0.65 0.00 0.439 0.89
+ 25: 5.32e+04      0 -2133331606 1077588 0       211321 0.00 1.00  6.05  3.00 0.65 0.00 0.441 0.89
+ 26: 5.26e+04      0 -2154763017 1097448 0       209887 0.00 1.00  6.06  3.00 0.66 0.00 0.441 0.89
+ 27: 5.20e+04      0 2128343274 1136980 0       207692 0.00 1.00  6.09  3.00 0.67 0.00 0.441 0.89
+ 28: 5.18e+04      0 2093026325 973652 0       205089 0.00 1.00  6.12  3.00 0.67 0.00 0.440 0.88
+ 29: 5.07e+04      0 2097169564 1087088 0       203316 0.00 1.00  6.13  3.00 0.67 0.00 0.442 0.88
+ 30: 4.97e+04      0 2057961675 1015396 0       199925 0.00 1.00  6.17  3.00 0.67 0.00 0.442 0.88
+ 31: 4.88e+04      0 2040098138 964992 0       195666 0.00 1.00  6.20  3.00 0.68 0.00 0.442 0.88
+ 32: 4.76e+04      0 2016666507 912208 0       191682 0.00 1.00  6.21  3.00 0.68 0.00 0.442 0.87
+ 33: 4.65e+04      0 1975221768 846940 0       187425 0.00 1.00  6.22  3.00 0.68 0.00 0.442 0.87
+ 34: 4.52e+04      0 1961682866 859264 0       182914 0.00 1.00  6.20  3.00 0.68 0.00 0.443 0.87
+ 35: 4.39e+04      0 1907406670 914304 0       177572 0.00 1.00  6.19  3.00 0.68 0.00 0.443 0.86
+ 36: 4.25e+04      0 1880213455 834576 0       172385 0.00 1.00  6.20  3.00 0.68 0.00 0.443 0.86
+ 37: 4.13e+04      0 1839768170 830932 0       166798 0.00 1.00  6.19  3.00 0.68 0.00 0.443 0.85
+ 38: 3.95e+04      0 1779225564 636052 0       160749 0.00 1.00  6.17  3.00 0.68 0.00 0.444 0.85
+ 39: 3.82e+04      0 1713618585 763712 0       155244 0.00 1.00  6.06  3.00 0.68 0.00 0.443 0.84
+ 40: 3.65e+04      0 1647025167 679736 0       149169 0.00 1.02  6.02  3.00 0.68 0.00 0.445 0.84
+ 41: 3.48e+04      0 1607564042 688568 0       142961 0.00 1.04  5.93  3.00 0.68 0.00 0.445 0.83
+ 42: 3.30e+04      0 1558997932 777984 0       136000 0.00 1.06  5.84  3.00 0.68 0.00 0.445 0.82
+ 43: 3.12e+04      0 1505840341 595564 0       129041 0.00 1.09  5.82  3.00 0.67 0.00 0.446 0.81
+ 44: 2.95e+04      0 1444574225 525348 0       122089 0.00 1.14  5.67  3.00 0.67 0.00 0.445 0.80
+ 45: 2.77e+04      0 1388155973 660868 0       115161 0.00 1.19  5.48  3.00 0.67 0.00 0.446 0.78
+ 46: 2.61e+04      0 1336593228 657040 0       108387 0.00 1.25  5.38  3.00 0.66 0.00 0.446 0.77
+ 47: 2.46e+04      0 1275822142 585488 0       101984 0.00 1.31  5.28  3.00 0.66 0.00 0.446 0.75
+ 48: 2.31e+04      0 1224941235 551576 0        96187 0.00 1.38  5.12  3.00 0.65 0.00 0.446 0.74
+ 49: 2.16e+04      0 1175340056 553176 0        90258 0.00 1.45  4.93  3.00 0.65 0.00 0.447 0.73
+ 50: 2.01e+04      0 1124400914 453156 0        84415 0.00 1.53  4.75  3.00 0.64 0.00 0.447 0.71
+ 51: 1.88e+04      0 1069698482 569972 0        78826 0.00 1.62  4.47  3.00 0.64 0.00 0.447 0.69
+ 52: 1.77e+04      0 1024445736 598156 0        73404 0.00 1.71  4.30  3.00 0.62 0.00 0.446 0.67
+ 53: 1.64e+04      0 976319247 526956 0        68872 0.00 1.81  4.15  3.00 0.62 0.00 0.448 0.65
+ 54: 1.54e+04      0 932111090 541516 0        64020 0.00 1.91  3.94  3.00 0.61 0.00 0.446 0.62
+ 55: 1.42e+04      0 881398187 584744 0        59961 0.00 2.01  3.74  3.00 0.61 0.00 0.448 0.59
+ 56: 1.34e+04      0 833085426 500072 0        55746 0.00 2.12  3.58  3.00 0.61 0.00 0.446 0.58
+ 57: 1.24e+04      0 797061552 537208 0        51991 0.00 2.23  3.34  3.00 0.60 0.00 0.448 0.56
+ 58: 1.15e+04      0 755049888 568688 0        48190 0.00 2.33  3.13  3.00 0.60 0.00 0.447 0.53
+ 59: 1.07e+04      0 718911645 555136 0        44870 0.00 2.45  2.97  3.00 0.59 0.00 0.447 0.51
+ 60: 9.93e+03      0 683560983 597680 0        41630 0.00 2.56  2.79  3.00 0.58 0.00 0.447 0.49
+ 61: 9.29e+03      0 650178225 496888 0        38608 0.02 2.67  2.67  3.00 0.58 0.00 0.447 0.48
+ 62: 8.64e+03      0 619832751 556404 0        35923 0.01 2.78  2.43  3.00 0.58 0.00 0.447 0.46
+ 63: 8.07e+03      0 593999772 629528 0        33430 0.01 2.89  2.26  3.00 0.56 0.00 0.447 0.45
+ 64: 7.56e+03      0 565088788 656280 0        31172 0.01 2.99  2.21  3.00 0.55 0.00 0.447 0.44
+ 65: 7.11e+03      0 543845631 638828 0        29123 0.01 3.09  2.21  3.00 0.54 0.00 0.446 0.43
+ 66: 6.67e+03      0 521916611 615780 0        27128 0.01 3.18  2.19  3.00 0.53 0.00 0.446 0.42
+ 67: 6.33e+03      0 499117405 623976 0        25503 0.00 3.26  2.15  3.00 0.53 0.00 0.445 0.41
+ 68: 5.97e+03      0 482051705 598020 0        23942 0.02 3.35  2.13  3.00 0.52 0.00 0.446 0.41
+ 69: 5.67e+03      0 462792286 670384 0        22423 0.00 3.42  2.08  3.00 0.50 0.00 0.445 0.41
+ 70: 5.40e+03      0 451685743 635484 0        21143 0.00 3.49  2.16  3.00 0.49 0.01 0.445 0.41
+ 71: 5.15e+03      0 435362665 523808 0        20027 0.02 3.55  2.20  3.00 0.47 0.01 0.445 0.41
+ 72: 4.90e+03      0 425120780 582060 0        18903 0.02 3.61  2.06  3.00 0.47 0.01 0.445 0.42
+ 73: 4.68e+03      0 411999638 594516 0        17878 0.04 3.67  2.04  3.00 0.45 0.02 0.445 0.42
+ 74: 4.48e+03      0 401012971 664440 0        16906 0.01 3.71  2.05  3.00 0.44 0.03 0.444 0.42
+ 75: 4.32e+03      0 391423333 555176 0        16054 0.02 3.75  2.19  3.00 0.43 0.03 0.444 0.43
+ 76: 4.15e+03      0 383149804 571000 0        15230 0.03 3.78  2.16  3.00 0.42 0.04 0.444 0.44
+ 77: 3.99e+03      0 374632430 541396 0        14448 0.02 3.80  2.16  3.00 0.41 0.05 0.444 0.45
+ 78: 3.83e+03      0 367542395 514520 0        13773 0.00 3.82  2.13  3.00 0.40 0.06 0.444 0.46
+ 79: 3.70e+03      0 359213934 554056 0        13048 0.00 3.83  2.07  3.00 0.39 0.07 0.443 0.47
+ 80: 3.57e+03      0 352850980 485588 0        12425 0.02 3.84  2.09  3.00 0.38 0.08 0.444 0.48
+ 81: 3.37e+03      0 344043831 470196 0        11865 0.02 3.83  1.99  3.00 0.37 0.09 0.436 0.49
+ 82: 3.20e+03      0 335892364 504928 0        11347 0.05 3.82  1.88  3.00 0.36 0.10 0.416 0.47
+ 83: 3.01e+03      0 327715643 499684 0        10956 0.00 3.80  1.85  3.00 0.35 0.11 0.399 0.46
+ 84: 2.87e+03      0 320109455 534080 0        10573 0.02 3.78  1.82  3.00 0.34 0.12 0.380 0.45
+ 85: 2.71e+03      0 313701772 570740 0        10178 0.03 3.75  1.88  3.00 0.33 0.13 0.365 0.44
+ 86: 2.60e+03      0 306639100 531996 0         9857 0.02 3.72  2.03  3.00 0.32 0.15 0.347 0.43
+ 87: 2.46e+03      0 300242419 493928 0         9524 0.01 3.67  2.11  3.00 0.31 0.16 0.333 0.42
+ 88: 2.34e+03      0 294530990 470580 0         9219 0.01 3.63  2.14  3.00 0.30 0.17 0.318 0.42
+ 89: 2.22e+03      0 290579298 424484 0         8902 0.02 3.58  2.13  3.00 0.29 0.19 0.305 0.41
+ 90: 2.12e+03      0 285595485 438572 0         8619 0.00 3.54  2.04  3.00 0.28 0.20 0.291 0.40
+ 91: 2.01e+03      0 279847001 443208 0         8322 0.00 3.48  1.99  3.00 0.28 0.21 0.279 0.40
+ 92: 1.92e+03      0 275300451 429792 0         8034 0.01 3.43  1.97  3.00 0.27 0.22 0.266 0.39
+ 93: 1.83e+03      0 270642502 409300 0         7744 0.00 3.39  1.94  3.00 0.26 0.23 0.255 0.39
+ 94: 1.75e+03      0 267193254 412972 0         7514 0.00 3.33  1.88  3.00 0.26 0.24 0.243 0.38
+ 95: 1.66e+03      0 263035984 422440 0         7278 0.02 3.28  1.84  3.00 0.25 0.24 0.233 0.37
+ 96: 1.61e+03      0 260725655 412344 0         7024 0.00 3.22  1.85  3.00 0.25 0.26 0.222 0.37
+ 97: 1.52e+03      0 257609062 397136 0         6825 0.01 3.17  1.84  3.00 0.24 0.26 0.214 0.37
+ 98: 1.45e+03      0 254600676 395048 0         6609 0.00 3.12  1.82  3.00 0.24 0.27 0.204 0.36
+ 99: 1.39e+03      0 251738198 391036 0         6411 0.00 3.07  1.81  3.00 0.24 0.28 0.195 0.36
+100: 1.34e+03      0 248676674 354256 0         6198 0.00 3.02  1.81  3.00 0.23 0.29 0.186 0.35
+101: 1.28e+03      0 246069143 346744 0         6024 0.00 2.97  1.74  3.00 0.23 0.29 0.178 0.35
+102: 1.23e+03      0 243359398 354732 0         5826 0.00 2.93  1.66  3.00 0.23 0.30 0.170 0.35
+103: 1.18e+03      0 241490267 366580 0         5646 0.01 2.89  1.63  3.00 0.22 0.31 0.163 0.35
+104: 1.14e+03      0 239763764 349440 0         5495 0.01 2.85  1.65  3.00 0.22 0.32 0.156 0.35
+105: 1.09e+03      0 238288858 371540 0         5341 0.02 2.82  1.64  3.00 0.22 0.32 0.150 0.34
+106: 1.05e+03      0 236430109 365300 0         5182 0.00 2.79  1.72  3.00 0.21 0.33 0.142 0.34
+107: 1.01e+03      0 234578729 361768 0         5028 0.00 2.76  1.80  3.00 0.21 0.34 0.137 0.34
+108: 9.76e+02      0 233134273 345316 0         4917 0.00 2.73  1.90  3.00 0.21 0.34 0.130 0.34
+109: 9.42e+02      0 231798588 356988 0         4743 0.00 2.72  1.98  3.00 0.20 0.35 0.125 0.34
+110: 9.12e+02      0 229995019 340832 0         4654 0.00 2.70  2.11  3.00 0.20 0.36 0.119 0.34
+111: 8.79e+02      0 229230872 339688 0         4518 0.00 2.69  2.23  3.00 0.20 0.37 0.114 0.34
+112: 8.51e+02      0 228276635 331708 0         4427 0.00 2.68  2.36  3.00 0.19 0.38 0.109 0.34
+113: 8.28e+02      0 226863183 320992 0         4293 0.00 2.68  2.50  3.00 0.19 0.39 0.104 0.33
+114: 8.02e+02      0 226198117 311740 0         4195 0.00 2.67  2.64  3.00 0.19 0.40 0.100 0.33
+115: 7.76e+02      0 225250996 301780 0         4102 0.00 2.68  2.77  3.00 0.19 0.41 0.095 0.33
+116: 7.50e+02      0 224515983 296532 0         4008 0.00 2.68  2.77  3.00 0.18 0.42 0.092 0.33
+117: 7.27e+02      0 223703066 293172 0         3900 0.00 2.68  2.77  3.00 0.18 0.43 0.087 0.33
+118: 7.07e+02      0 222974124 293648 0         3798 0.00 2.68  2.77  3.00 0.18 0.44 0.083 0.33
+119: 6.89e+02      0 222118362 289796 0         3736 0.00 2.68  2.77  3.00 0.18 0.44 0.080 0.33
+120: 6.67e+02      0 221488905 283576 0         3633 0.00 2.68  2.77  3.00 0.18 0.45 0.077 0.33
+121: 6.47e+02      0 220928617 286432 0         3559 0.00 2.68  2.77  3.00 0.18 0.46 0.073 0.33
+122: 6.27e+02      0 220180432 284192 0         3507 0.00 2.68  2.77  3.00 0.18 0.47 0.070 0.33
+123: 6.07e+02      0 219627753 280676 0         3388 0.00 2.68  2.77  3.00 0.18 0.48 0.068 0.33
+124: 5.90e+02      0 218902433 278608 0         3304 0.00 2.68  2.77  3.00 0.18 0.49 0.064 0.33
+125: 5.50e+02      0 217853469 277332 0         3244 0.00 2.68  2.77  3.00 0.18 0.49 0.060 0.33
+126: 5.43e+02      0 217491525 274596 0         3078 0.00 2.68  2.77  3.00 0.18 0.51 0.057 0.33
+127: 5.30e+02      0 217178044 269488 0         3031 0.00 2.68  2.77  3.00 0.18 0.51 0.055 0.33
+128: 5.26e+02      0 216643923 269192 0         2956 0.00 2.68  2.77  3.00 0.18 0.52 0.053 0.33
+129: 5.00e+02      0 216251365 268208 0         2924 0.00 2.68  2.77  3.00 0.18 0.52 0.051 0.33
+130: 4.83e+02      0 215788978 265828 0         2840 0.00 2.68  2.77  3.00 0.18 0.53 0.049 0.33
+131: 4.75e+02      0 215477646 267104 0         2771 0.00 2.68  2.77  3.00 0.18 0.53 0.047 0.33
+132: 4.69e+02      0 215158341 264056 0         2730 0.00 2.68  2.77  3.00 0.18 0.54 0.045 0.33
+133: 4.46e+02      0 214766132 259916 0         2681 0.00 2.68  2.77  3.00 0.18 0.54 0.043 0.33
+134: 4.34e+02      0 214531487 257836 0         2608 0.00 2.68  2.77  3.00 0.18 0.55 0.041 0.33
+135: 4.24e+02      0 214059808 257680 0         2550 0.00 2.68  2.77  3.00 0.18 0.55 0.039 0.33
+136: 4.01e+02      0 213735068 257016 0         2482 0.00 2.68  2.77  3.00 0.18 0.55 0.038 0.33
+137: 3.80e+02      0 213175507 255752 0         2404 0.00 2.68  2.77  3.00 0.18 0.56 0.036 0.33
+138: 3.69e+02      0 212941233 254300 0         2314 0.00 2.68  2.77  3.00 0.18 0.56 0.033 0.33
+139: 3.57e+02      0 212614395 255732 0         2250 0.00 2.68  2.77  3.00 0.19 0.57 0.031 0.33
+140: 3.44e+02      0 212269452 253680 0         2182 0.00 2.68  2.77  3.00 0.19 0.57 0.029 0.33
+141: 3.27e+02      0 211993005 255424 0         2142 0.00 2.68  2.77  3.00 0.19 0.57 0.027 0.33
+142: 3.00e+02      0 211621531 252396 0         2049 0.00 2.68  2.77  3.00 0.20 0.58 0.026 0.33
+143: 2.87e+02      0 211332167 253352 0         1963 0.00 2.68  2.77  3.00 0.20 0.58 0.023 0.33
+144: 2.68e+02      0 210978414 251912 0         1874 0.00 2.68  2.77  3.00 0.20 0.59 0.022 0.33
+145: 2.45e+02      0 210746484 251144 0         1764 0.00 2.68  2.77  3.00 0.21 0.59 0.020 0.33
+146: 2.23e+02      0 210410020 250972 0         1672 0.00 2.68  2.77  3.00 0.21 0.60 0.018 0.33
+147: 2.02e+02      0 210103907 249852 0         1582 0.00 2.68  2.77  3.00 0.21 0.60 0.016 0.33
+148: 1.80e+02      0 209859037 249848 0         1421 0.00 2.68  2.77  3.00 0.22 0.60 0.014 0.33
+149: 1.57e+02      0 209629755 249844 0         1308 0.00 2.68  2.77  3.00 0.22 0.61 0.012 0.33
+150: 1.30e+02      0 209366632 249056 0         1185 0.00 2.68  2.77  3.00 0.23 0.61 0.011 0.33
+151: 1.04e+02      0 209133660 248572 0         1034 0.00 2.68  2.77  3.00 0.23 0.62 0.009 0.33
+152: 7.73e+01      0 208917089 248576 0          937 0.00 2.68  2.77  3.00 0.21 0.62 0.008 0.33
+153: 5.31e+01      0 208722183 248416 0          771 0.00 2.68  2.77  3.00 0.20 0.64 0.007 0.33
+154: 3.28e+01      0 208613465 248416 0          668 0.00 2.68  2.77  3.00 0.18 0.64 0.006 0.33
+155: 1.94e+01      0 208564764 248416 0          563 0.00 2.68  2.77  3.00 0.16 0.65 0.005 0.33
+Total Wire Length - X-Component:161149102
+Total Wire Length - Y-Component:109326698
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                127280               -51838      179118
+    2                145920               -33198      179118
+    3                153360               -25758      179118
+    4                164800               -14318      179118
+    5                174880                -4238      179118
+    6                178960                 -158      179118
+    7                178400                 -718      179118
+    8                179040                  -78      179118
+    9                178720                 -398      179118
+   10                179040                  -78      179118
+   11                178800                 -318      179118
+   12                179120                    2      179118
+   13                178880                 -238      179118
+   14                179120                    2      179118
+   15                179120                    2      179118
+   16                179200                   82      179118
+   17                179040                  -78      179118
+   18                179120                    2      179118
+   19                179120                    2      179118
+   20                179120                    2      179118
+   21                179120                    2      179118
+   22                179440                  322      179118
+   23                179200                   82      179118
+   24                179440                  322      179118
+   25                179280                  162      179118
+   26                179200                   82      179118
+   27                179440                  322      179118
+   28                179280                  162      179118
+   29                179120                    2      179118
+   30                179600                  482      179118
+   31                179520                  402      179118
+   32                179120                    2      179118
+   33                180720                 1602      179118
+   34                180720                 1602      179118
+   35                179120                    2      179118
+   36                180000                  882      179118
+   37                179360                  242      179118
+   38                179120                    2      179118
+   39                179120                    2      179118
+   40                179200                   82      179118
+   41                179200                   82      179118
+   42                179200                   82      179118
+   43                179520                  402      179118
+   44                179120                    2      179118
+   45                180720                 1602      179118
+   46                179680                  562      179118
+   47                179280                  162      179118
+   48                179120                    2      179118
+   49                179360                  242      179118
+   50                179120                    2      179118
+   51                179360                  242      179118
+   52                179120                    2      179118
+   53                179280                  162      179118
+   54                179360                  242      179118
+   55                179120                    2      179118
+   56                179280                  162      179118
+   57                179440                  322      179118
+   58                179120                    2      179118
+   59                179200                   82      179118
+   60                179120                    2      179118
+   61                179360                  242      179118
+   62                179440                  322      179118
+   63                179600                  482      179118
+   64                179440                  322      179118
+   65                179120                    2      179118
+   66                179200                   82      179118
+   67                179360                  242      179118
+   68                179520                  402      179118
+   69                181440                 2322      179118
+   70                179520                  402      179118
+   71                179120                    2      179118
+   72                183520                 4402      179118
+   73                181840                 2722      179118
+   74                180080                  962      179118
+   75                179200                   82      179118
+   76                185520                 6402      179118
+   77                191520                12402      179118
+   78                184000                 4882      179118
+   79                179120                    2      179118
+   80                180560                 1442      179118
+   81                183200                 4082      179118
+   82                181840                 2722      179118
+   83                179680                  562      179118
+   84                181760                 2642      179118
+   85                180800                 1682      179118
+   86                179760                  642      179118
+   87                181440                 2322      179118
+   88                179840                  722      179118
+   89                179520                  402      179118
+   90                179120                    2      179118
+   91                179200                   82      179118
+   92                182240                 3122      179118
+   93                182240                 3122      179118
+   94                179200                   82      179118
+   95                179120                    2      179118
+   96                180880                 1762      179118
+   97                180800                 1682      179118
+   98                180720                 1602      179118
+   99                181280                 2162      179118
+  100                179680                  562      179118
+  101                180640                 1522      179118
+  102                181280                 2162      179118
+  103                179280                  162      179118
+  104                180000                  882      179118
+  105                179280                  162      179118
+  106                179360                  242      179118
+  107                179360                  242      179118
+  108                179200                   82      179118
+  109                179200                   82      179118
+  110                179600                  482      179118
+  111                179280                  162      179118
+  112                179920                  802      179118
+  113                179120                    2      179118
+  114                179200                   82      179118
+  115                179520                  402      179118
+  116                179200                   82      179118
+  117                179120                    2      179118
+  118                179200                   82      179118
+  119                179520                  402      179118
+  120                179200                   82      179118
+  121                179120                    2      179118
+  122                179120                    2      179118
+  123                179040                  -78      179118
+  124                179040                  -78      179118
+  125                178960                 -158      179118
+  126                179040                  -78      179118
+  127                178960                 -158      179118
+  128                178880                 -238      179118
+  129                179120                    2      179118
+  130                179120                    2      179118
+  131                178880                 -238      179118
+  132                178400                 -718      179118
+  133                171120                -7998      179118
+  134                159280               -19838      179118
+
+LONGEST Block is:77   Its length is:191520
+total penalty is 248416
+Removed the cell overlaps --- Will do neighbor interchanges only now
+
+TOTAL INTERCONNECT LENGTH: 270475800
+initialRowControl:   0.048
+finalRowControl:   0.008
+iter      T      Wire accept Time
+ 157  0.001 257990459   15%  0       
+ 158  0.001 255947188    7%  0       
+ 159  0.001 255385361    5%  0       
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:146058663
+Total Wire Length - Y-Component:109326698
+Time Penalty:0
+ the number of net = 23228
+ the number of tilted segment = 36965
+ the number of switchable L segment = 24965
+Total Wire Length - X-Component:148450639
+Total Wire Length - Y-Component:127043485
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                178320                 -798      179118
+    2                178320                 -798      179118
+    3                178560                 -558      179118
+    4                178400                 -718      179118
+    5                178640                 -478      179118
+    6                178960                 -158      179118
+    7                178400                 -718      179118
+    8                178880                 -238      179118
+    9                178720                 -398      179118
+   10                178880                 -238      179118
+   11                178800                 -318      179118
+   12                182160                 3042      179118
+   13                183680                 4562      179118
+   14                184880                 5762      179118
+   15                183920                 4802      179118
+   16                186720                 7602      179118
+   17                189280                10162      179118
+   18                189600                10482      179118
+   19                190560                11442      179118
+   20                193440                14322      179118
+   21                191360                12242      179118
+   22                195840                16722      179118
+   23                194320                15202      179118
+   24                196480                17362      179118
+   25                195040                15922      179118
+   26                198320                19202      179118
+   27                197840                18722      179118
+   28                199440                20322      179118
+   29                198960                19842      179118
+   30                201840                22722      179118
+   31                198960                19842      179118
+   32                201920                22802      179118
+   33                199760                20642      179118
+   34                198800                19682      179118
+   35                200160                21042      179118
+   36                196240                17122      179118
+   37                198720                19602      179118
+   38                197520                18402      179118
+   39                198240                19122      179118
+   40                197360                18242      179118
+   41                195120                16002      179118
+   42                193280                14162      179118
+   43                194000                14882      179118
+   44                195200                16082      179118
+   45                193920                14802      179118
+   46                194000                14882      179118
+   47                193040                13922      179118
+   48                188320                 9202      179118
+   49                190800                11682      179118
+   50                187520                 8402      179118
+   51                189200                10082      179118
+   52                185760                 6642      179118
+   53                185040                 5922      179118
+   54                178560                 -558      179118
+   55                178320                 -798      179118
+   56                178480                 -638      179118
+   57                178640                 -478      179118
+   58                178800                 -318      179118
+   59                178880                 -238      179118
+   60                180960                 1842      179118
+   61                181760                 2642      179118
+   62                187840                 8722      179118
+   63                190880                11762      179118
+   64                190880                11762      179118
+   65                192080                12962      179118
+   66                192960                13842      179118
+   67                196720                17602      179118
+   68                198960                19842      179118
+   69                200720                21602      179118
+   70                202720                23602      179118
+   71                204720                25602      179118
+   72                205520                26402      179118
+   73                205600                26482      179118
+   74                206800                27682      179118
+   75                206480                27362      179118
+   76                206560                27442      179118
+   77                206560                27442      179118
+   78                207040                27922      179118
+   79                208320                29202      179118
+   80                207680                28562      179118
+   81                206080                26962      179118
+   82                206560                27442      179118
+   83                206640                27522      179118
+   84                202480                23362      179118
+   85                203120                24002      179118
+   86                202160                23042      179118
+   87                201840                22722      179118
+   88                202640                23522      179118
+   89                201840                22722      179118
+   90                201120                22002      179118
+   91                200000                20882      179118
+   92                203280                24162      179118
+   93                204400                25282      179118
+   94                204000                24882      179118
+   95                200000                20882      179118
+   96                199440                20322      179118
+   97                200000                20882      179118
+   98                201840                22722      179118
+   99                202000                22882      179118
+  100                204240                25122      179118
+  101                203120                24002      179118
+  102                204720                25602      179118
+  103                204160                25042      179118
+  104                205360                26242      179118
+  105                204240                25122      179118
+  106                204320                25202      179118
+  107                203280                24162      179118
+  108                200960                21842      179118
+  109                201840                22722      179118
+  110                200560                21442      179118
+  111                201840                22722      179118
+  112                200720                21602      179118
+  113                200000                20882      179118
+  114                198480                19362      179118
+  115                199280                20162      179118
+  116                196000                16882      179118
+  117                194800                15682      179118
+  118                196160                17042      179118
+  119                193440                14322      179118
+  120                194400                15282      179118
+  121                192160                13042      179118
+  122                191600                12482      179118
+  123                187360                 8242      179118
+  124                184400                 5282      179118
+  125                179600                  482      179118
+  126                179040                  -78      179118
+  127                178960                 -158      179118
+  128                178880                 -238      179118
+  129                178560                 -558      179118
+  130                178720                 -398      179118
+  131                178880                 -238      179118
+  132                178400                 -718      179118
+  133                178960                 -158      179118
+  134                178240                 -878      179118
+
+LONGEST Block is:79   Its length is:208320
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28870
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28971
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28973
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36227
+ the number of switchable L segment = 28974
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1             178320                  -798
+  2             178320                  -798
+  3             178560                  -558
+  4             178400                  -718
+  5             178640                  -478
+  6             178960                  -158
+  7             180400                  1282
+  8             182400                  3282
+  9             186880                  7762
+ 10             187040                  7922
+ 11             187760                  8642
+ 12             193120                 14002
+ 13             193760                 14642
+ 14             194640                 15522
+ 15             194080                 14962
+ 16             194560                 15442
+ 17             197360                 18242
+ 18             199280                 20162
+ 19             199360                 20242
+ 20             200320                 21202
+ 21             200160                 21042
+ 22             203520                 24402
+ 23             202320                 23202
+ 24             207760                 28642
+ 25             206720                 27602
+ 26             208880                 29762
+ 27             209680                 30562
+ 28             210000                 30882
+ 29             209920                 30802
+ 30             212400                 33282
+ 31             211120                 32002
+ 32             212960                 33842
+ 33             212000                 32882
+ 34             210800                 31682
+ 35             210240                 31122
+ 36             208320                 29202
+ 37             209600                 30482
+ 38             208640                 29522
+ 39             210240                 31122
+ 40             209040                 29922
+ 41             206960                 27842
+ 42             205120                 26002
+ 43             205680                 26562
+ 44             205440                 26322
+ 45             204160                 25042
+ 46             204640                 25522
+ 47             204000                 24882
+ 48             198960                 19842
+ 49             200080                 20962
+ 50             197680                 18562
+ 51             198560                 19442
+ 52             195040                 15922
+ 53             194720                 15602
+ 54             189440                 10322
+ 55             185360                  6242
+ 56             187040                  7922
+ 57             189680                 10562
+ 58             191760                 12642
+ 59             191520                 12402
+ 60             193200                 14082
+ 61             193440                 14322
+ 62             196320                 17202
+ 63             198960                 19842
+ 64             199360                 20242
+ 65             201600                 22482
+ 66             202560                 23442
+ 67             206560                 27442
+ 68             209040                 29922
+ 69             210960                 31842
+ 70             211200                 32082
+ 71             211760                 32642
+ 72             213440                 34322
+ 73             213280                 34162
+ 74             213040                 33922
+ 75             210800                 31682
+ 76             211120                 32002
+ 77             211920                 32802
+ 78             210000                 30882
+ 79             209920                 30802
+ 80             209840                 30722
+ 81             209200                 30082
+ 82             210080                 30962
+ 83             208320                 29202
+ 84             206240                 27122
+ 85             206880                 27762
+ 86             206000                 26882
+ 87             204080                 24962
+ 88             203120                 24002
+ 89             203440                 24322
+ 90             201280                 22162
+ 91             199840                 20722
+ 92             203440                 24322
+ 93             203760                 24642
+ 94             202320                 23202
+ 95             199200                 20082
+ 96             199120                 20002
+ 97             199360                 20242
+ 98             202400                 23282
+ 99             202320                 23202
+100             203760                 24642
+101             200480                 21362
+102             201840                 22722
+103             199600                 20482
+104             199600                 20482
+105             199280                 20162
+106             198880                 19762
+107             197440                 18322
+108             196880                 17762
+109             196800                 17682
+110             195520                 16402
+111             196320                 17202
+112             194000                 14882
+113             195360                 16242
+114             192080                 12962
+115             193120                 14002
+116             191440                 12322
+117             190560                 11442
+118             187760                  8642
+119             186720                  7602
+120             186480                  7362
+121             186320                  7202
+122             184800                  5682
+123             181680                  2562
+124             181520                  2402
+125             178960                  -158
+126             179040                   -78
+127             178960                  -158
+128             178880                  -238
+129             178560                  -558
+130             178720                  -398
+131             178880                  -238
+132             178400                  -718
+133             178960                  -158
+134             178240                  -878
+
+LONGEST Row is:72   Its length is:213440
+Divide-and-Conquer Subdivisions in LA:2 at row:5
+Divide-and-Conquer Subdivisions in LA:3 at row:10
+Divide-and-Conquer Subdivisions in LA:3 at row:15
+Divide-and-Conquer Subdivisions in LA:3 at row:20
+Divide-and-Conquer Subdivisions in LA:3 at row:25
+Divide-and-Conquer Subdivisions in LA:4 at row:30
+Divide-and-Conquer Subdivisions in LA:3 at row:35
+Divide-and-Conquer Subdivisions in LA:3 at row:40
+Divide-and-Conquer Subdivisions in LA:3 at row:45
+Divide-and-Conquer Subdivisions in LA:3 at row:50
+Divide-and-Conquer Subdivisions in LA:3 at row:55
+Divide-and-Conquer Subdivisions in LA:3 at row:60
+Divide-and-Conquer Subdivisions in LA:3 at row:65
+Divide-and-Conquer Subdivisions in LA:4 at row:70
+Divide-and-Conquer Subdivisions in LA:3 at row:75
+Divide-and-Conquer Subdivisions in LA:3 at row:80
+Divide-and-Conquer Subdivisions in LA:3 at row:85
+Divide-and-Conquer Subdivisions in LA:3 at row:90
+Divide-and-Conquer Subdivisions in LA:3 at row:95
+Divide-and-Conquer Subdivisions in LA:3 at row:100
+Divide-and-Conquer Subdivisions in LA:3 at row:105
+Divide-and-Conquer Subdivisions in LA:3 at row:110
+Divide-and-Conquer Subdivisions in LA:3 at row:115
+Divide-and-Conquer Subdivisions in LA:3 at row:120
+Divide-and-Conquer Subdivisions in LA:2 at row:125
+Divide-and-Conquer Subdivisions in LA:2 at row:130
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1             178320 
+  2             178320 
+  3             178560 
+  4             178400 
+  5             178640 
+  6             178960 
+  7             180400 
+  8             182400 
+  9             186880 
+ 10             187040 
+ 11             187760 
+ 12             193120 
+ 13             193760 
+ 14             194640 
+ 15             194080 
+ 16             194560 
+ 17             197360 
+ 18             199280 
+ 19             199360 
+ 20             200320 
+ 21             200160 
+ 22             203520 
+ 23             202320 
+ 24             207760 
+ 25             206720 
+ 26             208880 
+ 27             209680 
+ 28             210000 
+ 29             209920 
+ 30             212400 
+ 31             211120 
+ 32             212960 
+ 33             212000 
+ 34             210800 
+ 35             210240 
+ 36             208320 
+ 37             209600 
+ 38             208640 
+ 39             210240 
+ 40             209040 
+ 41             206960 
+ 42             205120 
+ 43             205680 
+ 44             205440 
+ 45             204160 
+ 46             204640 
+ 47             204000 
+ 48             198960 
+ 49             200080 
+ 50             197680 
+ 51             198560 
+ 52             195040 
+ 53             194720 
+ 54             189440 
+ 55             185360 
+ 56             187040 
+ 57             189680 
+ 58             191760 
+ 59             191520 
+ 60             193200 
+ 61             193440 
+ 62             196320 
+ 63             198960 
+ 64             199360 
+ 65             201600 
+ 66             202560 
+ 67             206560 
+ 68             209040 
+ 69             210960 
+ 70             211200 
+ 71             211760 
+ 72             213440 
+ 73             213280 
+ 74             213040 
+ 75             210800 
+ 76             211120 
+ 77             211920 
+ 78             210000 
+ 79             209920 
+ 80             209840 
+ 81             209200 
+ 82             210080 
+ 83             208320 
+ 84             206240 
+ 85             206880 
+ 86             206000 
+ 87             204080 
+ 88             203120 
+ 89             203440 
+ 90             201280 
+ 91             199840 
+ 92             203440 
+ 93             203760 
+ 94             202320 
+ 95             199200 
+ 96             199120 
+ 97             199360 
+ 98             202400 
+ 99             202320 
+100             203760 
+101             200480 
+102             201840 
+103             199600 
+104             199600 
+105             199280 
+106             198880 
+107             197440 
+108             196880 
+109             196800 
+110             195520 
+111             196320 
+112             194000 
+113             195360 
+114             192080 
+115             193120 
+116             191440 
+117             190560 
+118             187760 
+119             186720 
+120             186480 
+121             186320 
+122             184800 
+123             181680 
+124             181520 
+125             178960 
+126             179040 
+127             178960 
+128             178880 
+129             178560 
+130             178720 
+131             178880 
+132             178400 
+133             178960 
+134             178240 
+
+LONGEST Row is:72   Its length is:213440
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                178320                 -798
+    2                178320                 -798
+    3                178560                 -558
+    4                178400                 -718
+    5                178640                 -478
+    6                178960                 -158
+    7                178400                 -718
+    8                178880                 -238
+    9                178720                 -398
+   10                178880                 -238
+   11                178800                 -318
+   12                178320                 -798
+   13                178880                 -238
+   14                178320                 -798
+   15                178480                 -638
+   16                178400                 -718
+   17                178400                 -718
+   18                178320                 -798
+   19                178320                 -798
+   20                178320                 -798
+   21                178320                 -798
+   22                178640                 -478
+   23                178400                 -718
+   24                178800                 -318
+   25                178880                 -238
+   26                178400                 -718
+   27                178880                 -238
+   28                178720                 -398
+   29                178320                 -798
+   30                178800                 -318
+   31                178720                 -398
+   32                178320                 -798
+   33                178320                 -798
+   34                178320                 -798
+   35                178320                 -798
+   36                178400                 -718
+   37                178560                 -558
+   38                178320                 -798
+   39                178480                 -638
+   40                178400                 -718
+   41                178400                 -718
+   42                178400                 -718
+   43                178720                 -398
+   44                178320                 -798
+   45                178880                 -238
+   46                178880                 -238
+   47                178480                 -638
+   48                178320                 -798
+   49                178560                 -558
+   50                178320                 -798
+   51                178560                 -558
+   52                178320                 -798
+   53                178480                 -638
+   54                178560                 -558
+   55                178320                 -798
+   56                178480                 -638
+   57                178640                 -478
+   58                178320                 -798
+   59                178880                 -238
+   60                178320                 -798
+   61                178720                 -398
+   62                178640                 -478
+   63                178800                 -318
+   64                178640                 -478
+   65                178320                 -798
+   66                178400                 -718
+   67                178560                 -558
+   68                178720                 -398
+   69                178400                 -718
+   70                178480                 -638
+   71                178320                 -798
+   72                178720                 -398
+   73                178640                 -478
+   74                178800                 -318
+   75                178400                 -718
+   76                178480                 -638
+   77                178720                 -398
+   78                178640                 -478
+   79                178320                 -798
+   80                178960                 -158
+   81                178960                 -158
+   82                178800                 -318
+   83                178640                 -478
+   84                178560                 -558
+   85                178400                 -718
+   86                178960                 -158
+   87                178400                 -718
+   88                178480                 -638
+   89                178720                 -398
+   90                178320                 -798
+   91                178240                 -878
+   92                179040                  -78
+   93                179040                  -78
+   94                178400                 -718
+   95                178320                 -798
+   96                178480                 -638
+   97                179040                  -78
+   98                178320                 -798
+   99                178880                 -238
+  100                178880                 -238
+  101                178480                 -638
+  102                178880                 -238
+  103                178480                 -638
+  104                178640                 -478
+  105                178720                 -398
+  106                178560                 -558
+  107                178560                 -558
+  108                178400                 -718
+  109                178640                 -478
+  110                178800                 -318
+  111                178480                 -638
+  112                178320                 -798
+  113                178320                 -798
+  114                178400                 -718
+  115                178320                 -798
+  116                178400                 -718
+  117                178320                 -798
+  118                178400                 -718
+  119                178720                 -398
+  120                178400                 -718
+  121                178320                 -798
+  122                178320                 -798
+  123                179040                  -78
+  124                179040                  -78
+  125                178960                 -158
+  126                179040                  -78
+  127                178960                 -158
+  128                178880                 -238
+  129                178560                 -558
+  130                178720                 -398
+  131                178880                 -238
+  132                178400                 -718
+  133                178960                 -158
+  134                178240                 -878
+
+LONGEST Block is:92   Its length is:179040
+initial total global wire   :	730061153
+initial total timing penalty:	0
+
+
+
+Steiner cell swap and rotation optimization
+swap_limit:-36503
+reduction:	-9668552		total_red:-9668552
+reduction:	-1139210		total_red:-29398904
+reduction:	-646966		total_red:-37472698
+reduction:	-433664		total_red:-42617564
+reduction:	-351614		total_red:-46375280
+reduction:	-257330		total_red:-49179490
+reduction:	-185810		total_red:-51245788
+reduction:	-158690		total_red:-52808100
+reduction:	-86048		total_red:-53887188
+reduction:	-75470		total_red:-54873902
+reduction:	-71000		total_red:-55618290
+iterations              :	104
+final total global wire :	674251315
+final total time penalty:	0
+
+Total global wire reduced by:	7.645%
+
+VERIFICATION
+final total global wire :	674251315
+final total time penalty:	0
+
+
+
+
+THIS IS THE ORIGINAL NUMBER OF TRACKS: 7822
+
+
+no. of accepted flips: 2634
+no. of attempted flips: 580700
+THIS IS THE NUMBER OF TRACKS: 7515
+
+
+THIS G. ROUTING IS BEING SAVED AS BEST SO FAR
+
+FINAL NUMBER OF ROUTING TRACKS: 7515
+
+MAX OF CHANNEL:  1  is:  15
+MAX OF CHANNEL:  2  is:  22
+MAX OF CHANNEL:  3  is:  23
+MAX OF CHANNEL:  4  is:  42
+MAX OF CHANNEL:  5  is:  43
+MAX OF CHANNEL:  6  is:  62
+MAX OF CHANNEL:  7  is:  96
+MAX OF CHANNEL:  8  is:  69
+MAX OF CHANNEL:  9  is:  36
+MAX OF CHANNEL: 10  is:  40
+MAX OF CHANNEL: 11  is:  34
+MAX OF CHANNEL: 12  is:  47
+MAX OF CHANNEL: 13  is:  39
+MAX OF CHANNEL: 14  is:  53
+MAX OF CHANNEL: 15  is:  40
+MAX OF CHANNEL: 16  is:  42
+MAX OF CHANNEL: 17  is:  38
+MAX OF CHANNEL: 18  is:  54
+MAX OF CHANNEL: 19  is:  44
+MAX OF CHANNEL: 20  is:  60
+MAX OF CHANNEL: 21  is:  35
+MAX OF CHANNEL: 22  is:  56
+MAX OF CHANNEL: 23  is:  39
+MAX OF CHANNEL: 24  is:  54
+MAX OF CHANNEL: 25  is:  49
+MAX OF CHANNEL: 26  is:  71
+MAX OF CHANNEL: 27  is:  46
+MAX OF CHANNEL: 28  is:  68
+MAX OF CHANNEL: 29  is:  46
+MAX OF CHANNEL: 30  is:  60
+MAX OF CHANNEL: 31  is:  55
+MAX OF CHANNEL: 32  is:  54
+MAX OF CHANNEL: 33  is:  49
+MAX OF CHANNEL: 34  is:  60
+MAX OF CHANNEL: 35  is:  52
+MAX OF CHANNEL: 36  is:  63
+MAX OF CHANNEL: 37  is:  49
+MAX OF CHANNEL: 38  is:  60
+MAX OF CHANNEL: 39  is:  54
+MAX OF CHANNEL: 40  is:  69
+MAX OF CHANNEL: 41  is:  58
+MAX OF CHANNEL: 42  is:  85
+MAX OF CHANNEL: 43  is:  72
+MAX OF CHANNEL: 44  is:  75
+MAX OF CHANNEL: 45  is:  74
+MAX OF CHANNEL: 46  is:  38
+MAX OF CHANNEL: 47  is:  61
+MAX OF CHANNEL: 48  is: 112
+MAX OF CHANNEL: 49  is:  91
+MAX OF CHANNEL: 50  is:  95
+MAX OF CHANNEL: 51  is:  93
+MAX OF CHANNEL: 52  is:  81
+MAX OF CHANNEL: 53  is:  64
+MAX OF CHANNEL: 54  is:  88
+MAX OF CHANNEL: 55  is:  74
+MAX OF CHANNEL: 56  is:  77
+MAX OF CHANNEL: 57  is:  64
+MAX OF CHANNEL: 58  is:  61
+MAX OF CHANNEL: 59  is:  54
+MAX OF CHANNEL: 60  is:  58
+MAX OF CHANNEL: 61  is:  39
+MAX OF CHANNEL: 62  is:  52
+MAX OF CHANNEL: 63  is:  55
+MAX OF CHANNEL: 64  is:  61
+MAX OF CHANNEL: 65  is:  62
+MAX OF CHANNEL: 66  is:  68
+MAX OF CHANNEL: 67  is:  66
+MAX OF CHANNEL: 68  is:  87
+MAX OF CHANNEL: 69  is:  70
+MAX OF CHANNEL: 70  is:  82
+MAX OF CHANNEL: 71  is:  62
+MAX OF CHANNEL: 72  is:  71
+MAX OF CHANNEL: 73  is:  43
+MAX OF CHANNEL: 74  is:  62
+MAX OF CHANNEL: 75  is:  52
+MAX OF CHANNEL: 76  is:  68
+MAX OF CHANNEL: 77  is:  43
+MAX OF CHANNEL: 78  is:  64
+MAX OF CHANNEL: 79  is:  48
+MAX OF CHANNEL: 80  is:  61
+MAX OF CHANNEL: 81  is:  46
+MAX OF CHANNEL: 82  is:  74
+MAX OF CHANNEL: 83  is:  55
+MAX OF CHANNEL: 84  is:  68
+MAX OF CHANNEL: 85  is:  48
+MAX OF CHANNEL: 86  is:  49
+MAX OF CHANNEL: 87  is:  53
+MAX OF CHANNEL: 88  is:  54
+MAX OF CHANNEL: 89  is:  45
+MAX OF CHANNEL: 90  is:  85
+MAX OF CHANNEL: 91  is:  59
+MAX OF CHANNEL: 92  is:  56
+MAX OF CHANNEL: 93  is:  60
+MAX OF CHANNEL: 94  is:  62
+MAX OF CHANNEL: 95  is:  64
+MAX OF CHANNEL: 96  is:  65
+MAX OF CHANNEL: 97  is:  54
+MAX OF CHANNEL: 98  is:  64
+MAX OF CHANNEL: 99  is:  52
+MAX OF CHANNEL:100  is:  65
+MAX OF CHANNEL:101  is:  50
+MAX OF CHANNEL:102  is:  72
+MAX OF CHANNEL:103  is:  59
+MAX OF CHANNEL:104  is:  76
+MAX OF CHANNEL:105  is:  62
+MAX OF CHANNEL:106  is:  83
+MAX OF CHANNEL:107  is:  42
+MAX OF CHANNEL:108  is:  79
+MAX OF CHANNEL:109  is:  42
+MAX OF CHANNEL:110  is:  66
+MAX OF CHANNEL:111  is:  55
+MAX OF CHANNEL:112  is:  77
+MAX OF CHANNEL:113  is:  42
+MAX OF CHANNEL:114  is:  59
+MAX OF CHANNEL:115  is:  48
+MAX OF CHANNEL:116  is:  71
+MAX OF CHANNEL:117  is:  44
+MAX OF CHANNEL:118  is:  74
+MAX OF CHANNEL:119  is:  56
+MAX OF CHANNEL:120  is:  72
+MAX OF CHANNEL:121  is:  46
+MAX OF CHANNEL:122  is:  72
+MAX OF CHANNEL:123  is:  39
+MAX OF CHANNEL:124  is:  40
+MAX OF CHANNEL:125  is:  39
+MAX OF CHANNEL:126  is:  39
+MAX OF CHANNEL:127  is:  23
+MAX OF CHANNEL:128  is:  24
+MAX OF CHANNEL:129  is:  13
+MAX OF CHANNEL:130  is:  24
+MAX OF CHANNEL:131  is:  16
+MAX OF CHANNEL:132  is:  17
+MAX OF CHANNEL:133  is:   8
+MAX OF CHANNEL:134  is:  24
+MAX OF CHANNEL:135  is:   5
+Confirming number of eliminated feeds:0
+Actual # of Feed Cells Added:	32483
+
+
+TimberWolfSC did call even_the_rows()
+Total Wire Length - X-Component:146058663
+Total Wire Length - Y-Component:109326698
+Time Penalty:0
+ the number of net = 23228
+ the number of tilted segment = 36965
+ the number of switchable L segment = 24965
+Total Wire Length - X-Component:148450639
+Total Wire Length - Y-Component:127043485
+Time Penalty:0
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET      DESIRE
+    1                178320                 -798      179118
+    2                178320                 -798      179118
+    3                178560                 -558      179118
+    4                178400                 -718      179118
+    5                178640                 -478      179118
+    6                178960                 -158      179118
+    7                178400                 -718      179118
+    8                178880                 -238      179118
+    9                178720                 -398      179118
+   10                178880                 -238      179118
+   11                178800                 -318      179118
+   12                182400                 3282      179118
+   13                184240                 5122      179118
+   14                185040                 5922      179118
+   15                183600                 4482      179118
+   16                187040                 7922      179118
+   17                189120                10002      179118
+   18                189760                10642      179118
+   19                191280                12162      179118
+   20                192160                13042      179118
+   21                191920                12802      179118
+   22                195040                15922      179118
+   23                194160                15042      179118
+   24                196400                17282      179118
+   25                195520                16402      179118
+   26                198080                18962      179118
+   27                198240                19122      179118
+   28                199360                20242      179118
+   29                198960                19842      179118
+   30                201600                22482      179118
+   31                199040                19922      179118
+   32                201040                21922      179118
+   33                199840                20722      179118
+   34                198640                19522      179118
+   35                199680                20562      179118
+   36                196640                17522      179118
+   37                198160                19042      179118
+   38                198240                19122      179118
+   39                198160                19042      179118
+   40                196880                17762      179118
+   41                195280                16162      179118
+   42                193040                13922      179118
+   43                194000                14882      179118
+   44                194960                15842      179118
+   45                194480                15362      179118
+   46                193680                14562      179118
+   47                193520                14402      179118
+   48                188080                 8962      179118
+   49                190320                11202      179118
+   50                187120                 8002      179118
+   51                189440                10322      179118
+   52                185440                 6322      179118
+   53                184640                 5522      179118
+   54                178560                 -558      179118
+   55                178320                 -798      179118
+   56                178480                 -638      179118
+   57                178640                 -478      179118
+   58                178560                 -558      179118
+   59                178880                 -238      179118
+   60                181760                 2642      179118
+   61                182560                 3442      179118
+   62                187920                 8802      179118
+   63                191200                12082      179118
+   64                190000                10882      179118
+   65                192800                13682      179118
+   66                193120                14002      179118
+   67                195120                16002      179118
+   68                199360                20242      179118
+   69                200960                21842      179118
+   70                203360                24242      179118
+   71                205360                26242      179118
+   72                205120                26002      179118
+   73                205360                26242      179118
+   74                207040                27922      179118
+   75                206480                27362      179118
+   76                207440                28322      179118
+   77                206160                27042      179118
+   78                206400                27282      179118
+   79                207600                28482      179118
+   80                208160                29042      179118
+   81                205840                26722      179118
+   82                206560                27442      179118
+   83                206400                27282      179118
+   84                202480                23362      179118
+   85                203280                24162      179118
+   86                201920                22802      179118
+   87                201360                22242      179118
+   88                202960                23842      179118
+   89                202640                23522      179118
+   90                201280                22162      179118
+   91                200000                20882      179118
+   92                203200                24082      179118
+   93                204640                25522      179118
+   94                204000                24882      179118
+   95                199760                20642      179118
+   96                199120                20002      179118
+   97                199760                20642      179118
+   98                202640                23522      179118
+   99                201760                22642      179118
+  100                204000                24882      179118
+  101                202800                23682      179118
+  102                204000                24882      179118
+  103                205040                25922      179118
+  104                204240                25122      179118
+  105                204480                25362      179118
+  106                203920                24802      179118
+  107                203120                24002      179118
+  108                201920                22802      179118
+  109                201440                22322      179118
+  110                200800                21682      179118
+  111                201280                22162      179118
+  112                200880                21762      179118
+  113                200480                21362      179118
+  114                198080                18962      179118
+  115                198960                19842      179118
+  116                195760                16642      179118
+  117                195200                16082      179118
+  118                195680                16562      179118
+  119                193120                14002      179118
+  120                194240                15122      179118
+  121                192000                12882      179118
+  122                191520                12402      179118
+  123                187520                 8402      179118
+  124                184800                 5682      179118
+  125                179520                  402      179118
+  126                179040                  -78      179118
+  127                178960                 -158      179118
+  128                178880                 -238      179118
+  129                178560                 -558      179118
+  130                178720                 -398      179118
+  131                178880                 -238      179118
+  132                178400                 -718      179118
+  133                178960                 -158      179118
+  134                178240                 -878      179118
+
+LONGEST Block is:80   Its length is:208160
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28876
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28974
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+ the number of tilted segment = 36223
+ the number of switchable L segment = 28975
+After Feeds are Added:
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1             178320                  -798
+  2             178320                  -798
+  3             178560                  -558
+  4             178400                  -718
+  5             178640                  -478
+  6             178960                  -158
+  7             180000                   882
+  8             182560                  3442
+  9             187360                  8242
+ 10             186720                  7602
+ 11             187920                  8802
+ 12             193120                 14002
+ 13             193280                 14162
+ 14             194320                 15202
+ 15             194080                 14962
+ 16             195200                 16082
+ 17             197360                 18242
+ 18             199120                 20002
+ 19             198960                 19842
+ 20             201440                 22322
+ 21             200800                 21682
+ 22             203520                 24402
+ 23             201920                 22802
+ 24             207120                 28002
+ 25             207360                 28242
+ 26             208800                 29682
+ 27             209120                 30002
+ 28             210960                 31842
+ 29             209520                 30402
+ 30             212640                 33522
+ 31             210880                 31762
+ 32             213840                 34722
+ 33             212240                 33122
+ 34             209680                 30562
+ 35             210400                 31282
+ 36             207920                 28802
+ 37             209200                 30082
+ 38             208800                 29682
+ 39             209520                 30402
+ 40             209440                 30322
+ 41             207040                 27922
+ 42             205360                 26242
+ 43             206640                 27522
+ 44             204880                 25762
+ 45             204240                 25122
+ 46             203600                 24482
+ 47             204320                 25202
+ 48             198320                 19202
+ 49             199440                 20322
+ 50             197680                 18562
+ 51             197920                 18802
+ 52             195600                 16482
+ 53             195600                 16482
+ 54             189200                 10082
+ 55             184480                  5362
+ 56             186880                  7762
+ 57             189760                 10642
+ 58             192240                 13122
+ 59             191520                 12402
+ 60             192240                 13122
+ 61             193040                 13922
+ 62             195600                 16482
+ 63             199200                 20082
+ 64             198800                 19682
+ 65             201280                 22162
+ 66             202560                 23442
+ 67             205440                 26322
+ 68             210400                 31282
+ 69             209760                 30642
+ 70             212000                 32882
+ 71             212480                 33362
+ 72             212880                 33762
+ 73             213040                 33922
+ 74             212480                 33362
+ 75             210960                 31842
+ 76             210720                 31602
+ 77             212240                 33122
+ 78             209520                 30402
+ 79             211360                 32242
+ 80             209200                 30082
+ 81             208720                 29602
+ 82             210720                 31602
+ 83             208960                 29842
+ 84             206480                 27362
+ 85             206560                 27442
+ 86             205360                 26242
+ 87             203760                 24642
+ 88             202800                 23682
+ 89             203600                 24482
+ 90             201920                 22802
+ 91             199440                 20322
+ 92             203120                 24002
+ 93             203680                 24562
+ 94             201280                 22162
+ 95             198880                 19762
+ 96             199520                 20402
+ 97             199520                 20402
+ 98             202080                 22962
+ 99             202720                 23602
+100             203520                 24402
+101             200960                 21842
+102             201680                 22562
+103             199760                 20642
+104             198800                 19682
+105             199120                 20002
+106             199440                 20322
+107             197360                 18242
+108             196000                 16882
+109             196560                 17442
+110             195040                 15922
+111             197120                 18002
+112             194160                 15042
+113             195840                 16722
+114             191920                 12802
+115             193840                 14722
+116             191200                 12082
+117             189840                 10722
+118             188080                  8962
+119             186880                  7762
+120             186320                  7202
+121             186000                  6882
+122             184320                  5202
+123             181440                  2322
+124             181360                  2242
+125             178960                  -158
+126             179040                   -78
+127             178960                  -158
+128             178880                  -238
+129             178560                  -558
+130             178720                  -398
+131             178880                  -238
+132             178400                  -718
+133             178960                  -158
+134             178240                  -878
+
+LONGEST Row is:32   Its length is:213840
+Divide-and-Conquer Subdivisions in LA:2 at row:5
+Divide-and-Conquer Subdivisions in LA:3 at row:10
+Divide-and-Conquer Subdivisions in LA:3 at row:15
+Divide-and-Conquer Subdivisions in LA:3 at row:20
+Divide-and-Conquer Subdivisions in LA:3 at row:25
+Divide-and-Conquer Subdivisions in LA:4 at row:30
+Divide-and-Conquer Subdivisions in LA:3 at row:35
+Divide-and-Conquer Subdivisions in LA:3 at row:40
+Divide-and-Conquer Subdivisions in LA:3 at row:45
+Divide-and-Conquer Subdivisions in LA:3 at row:50
+Divide-and-Conquer Subdivisions in LA:3 at row:55
+Divide-and-Conquer Subdivisions in LA:3 at row:60
+Divide-and-Conquer Subdivisions in LA:3 at row:65
+Divide-and-Conquer Subdivisions in LA:4 at row:70
+Divide-and-Conquer Subdivisions in LA:3 at row:75
+Divide-and-Conquer Subdivisions in LA:3 at row:80
+Divide-and-Conquer Subdivisions in LA:3 at row:85
+Divide-and-Conquer Subdivisions in LA:3 at row:90
+Divide-and-Conquer Subdivisions in LA:3 at row:95
+Divide-and-Conquer Subdivisions in LA:3 at row:100
+Divide-and-Conquer Subdivisions in LA:3 at row:105
+Divide-and-Conquer Subdivisions in LA:3 at row:110
+Divide-and-Conquer Subdivisions in LA:3 at row:115
+Divide-and-Conquer Subdivisions in LA:3 at row:120
+Divide-and-Conquer Subdivisions in LA:2 at row:125
+Divide-and-Conquer Subdivisions in LA:2 at row:130
+Eliminated 0 unused feeds in the longest row
+BLOCK      TOTAL CELL LENGTHS      OVER/UNDER TARGET
+  1             178320 
+  2             178320 
+  3             178560 
+  4             178400 
+  5             178640 
+  6             178960 
+  7             180000 
+  8             182560 
+  9             187360 
+ 10             186720 
+ 11             187920 
+ 12             193120 
+ 13             193280 
+ 14             194320 
+ 15             194080 
+ 16             195200 
+ 17             197360 
+ 18             199120 
+ 19             198960 
+ 20             201440 
+ 21             200800 
+ 22             203520 
+ 23             201920 
+ 24             207120 
+ 25             207360 
+ 26             208800 
+ 27             209120 
+ 28             210960 
+ 29             209520 
+ 30             212640 
+ 31             210880 
+ 32             213840 
+ 33             212240 
+ 34             209680 
+ 35             210400 
+ 36             207920 
+ 37             209200 
+ 38             208800 
+ 39             209520 
+ 40             209440 
+ 41             207040 
+ 42             205360 
+ 43             206640 
+ 44             204880 
+ 45             204240 
+ 46             203600 
+ 47             204320 
+ 48             198320 
+ 49             199440 
+ 50             197680 
+ 51             197920 
+ 52             195600 
+ 53             195600 
+ 54             189200 
+ 55             184480 
+ 56             186880 
+ 57             189760 
+ 58             192240 
+ 59             191520 
+ 60             192240 
+ 61             193040 
+ 62             195600 
+ 63             199200 
+ 64             198800 
+ 65             201280 
+ 66             202560 
+ 67             205440 
+ 68             210400 
+ 69             209760 
+ 70             212000 
+ 71             212480 
+ 72             212880 
+ 73             213040 
+ 74             212480 
+ 75             210960 
+ 76             210720 
+ 77             212240 
+ 78             209520 
+ 79             211360 
+ 80             209200 
+ 81             208720 
+ 82             210720 
+ 83             208960 
+ 84             206480 
+ 85             206560 
+ 86             205360 
+ 87             203760 
+ 88             202800 
+ 89             203600 
+ 90             201920 
+ 91             199440 
+ 92             203120 
+ 93             203680 
+ 94             201280 
+ 95             198880 
+ 96             199520 
+ 97             199520 
+ 98             202080 
+ 99             202720 
+100             203520 
+101             200960 
+102             201680 
+103             199760 
+104             198800 
+105             199120 
+106             199440 
+107             197360 
+108             196000 
+109             196560 
+110             195040 
+111             197120 
+112             194160 
+113             195840 
+114             191920 
+115             193840 
+116             191200 
+117             189840 
+118             188080 
+119             186880 
+120             186320 
+121             186000 
+122             184320 
+123             181440 
+124             181360 
+125             178960 
+126             179040 
+127             178960 
+128             178880 
+129             178560 
+130             178720 
+131             178880 
+132             178400 
+133             178960 
+134             178240 
+
+LONGEST Row is:32   Its length is:213840
+
+Actually added 0 gate array spacers
+
+row lengths after steiner trees:
+BLOCK    TOTAL CELL LENGTHS    OVER/UNDER TARGET
+    1                178320                 -798
+    2                178320                 -798
+    3                178560                 -558
+    4                178400                 -718
+    5                178640                 -478
+    6                178960                 -158
+    7                178400                 -718
+    8                178880                 -238
+    9                178720                 -398
+   10                178880                 -238
+   11                178800                 -318
+   12                178320                 -798
+   13                178880                 -238
+   14                178320                 -798
+   15                178480                 -638
+   16                178400                 -718
+   17                178400                 -718
+   18                178320                 -798
+   19                178320                 -798
+   20                178320                 -798
+   21                178320                 -798
+   22                178640                 -478
+   23                178400                 -718
+   24                178800                 -318
+   25                178880                 -238
+   26                178400                 -718
+   27                178880                 -238
+   28                178720                 -398
+   29                178320                 -798
+   30                178800                 -318
+   31                178720                 -398
+   32                178320                 -798
+   33                178320                 -798
+   34                178320                 -798
+   35                178320                 -798
+   36                178400                 -718
+   37                178560                 -558
+   38                178320                 -798
+   39                178480                 -638
+   40                178400                 -718
+   41                178400                 -718
+   42                178400                 -718
+   43                178720                 -398
+   44                178320                 -798
+   45                178880                 -238
+   46                178880                 -238
+   47                178480                 -638
+   48                178320                 -798
+   49                178560                 -558
+   50                178320                 -798
+   51                178560                 -558
+   52                178320                 -798
+   53                178480                 -638
+   54                178560                 -558
+   55                178320                 -798
+   56                178480                 -638
+   57                178640                 -478
+   58                178320                 -798
+   59                178880                 -238
+   60                178320                 -798
+   61                178720                 -398
+   62                178640                 -478
+   63                178800                 -318
+   64                178640                 -478
+   65                178320                 -798
+   66                178400                 -718
+   67                178560                 -558
+   68                178720                 -398
+   69                178400                 -718
+   70                178480                 -638
+   71                178320                 -798
+   72                178720                 -398
+   73                178640                 -478
+   74                178800                 -318
+   75                178400                 -718
+   76                178480                 -638
+   77                178720                 -398
+   78                178640                 -478
+   79                178320                 -798
+   80                178960                 -158
+   81                178960                 -158
+   82                178800                 -318
+   83                178640                 -478
+   84                178560                 -558
+   85                178400                 -718
+   86                178960                 -158
+   87                178400                 -718
+   88                178480                 -638
+   89                178720                 -398
+   90                178320                 -798
+   91                178240                 -878
+   92                179040                  -78
+   93                179040                  -78
+   94                178400                 -718
+   95                178320                 -798
+   96                178480                 -638
+   97       

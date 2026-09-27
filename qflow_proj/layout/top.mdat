@@ -1,0 +1,31 @@
+
+stdcell 1 name core
+corners 6
+0 0 0 138356 138356 138356 138356 69178 207534 69178 207534 0 
+asplb 0.500000 aspub 2.000000
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 0
+
+pad 2 name twpin_clk
+corners 4
+-340 840 -340 920 -240 920 -240 840 
+orient 7
+pin name clk signal clk layer 1 -290 880
+
+pad 3 name twpin_reset
+corners 4
+-340 400 -340 480 -240 480 -240 400 
+orient 7
+pin name reset signal reset layer 1 -290 440
+
+pad 4 name twpin_uart_rx
+corners 4
+-340 180 -340 260 -240 260 -240 180 
+orient 7
+pin name uart_rx signal uart_rx layer 1 -290 220
+
+pad 5 name twpin_uart_tx
+corners 4
+-340 620 -340 700 -240 700 -240 620 
+orient 7
+pin name uart_tx signal uart_tx layer 1 -290 660

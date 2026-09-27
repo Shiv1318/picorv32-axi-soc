@@ -1,0 +1,30 @@
+# Synthesis script for yosys created by qflow
+read_liberty -lib -ignore_miss_dir -setattr blackbox /apps/vlsi/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog  top.v
+read_verilog  mem_bridge.v
+read_verilog  rom_axi.v
+read_verilog  sram_axi.v
+read_verilog  uart_tx.v
+read_verilog  uart_axi.v
+read_verilog  picorv32.v
+
+# High-level synthesis
+synth -top top
+# Map register flops
+dfflibmap -liberty /apps/vlsi/share/qflow/tech/osu018/osu018_stdcells.lib
+opt
+
+# Map combinatorial cells, standard script
+abc -exe /apps/vlsi/share/qflow/bin/yosys-abc -liberty /apps/vlsi/share/qflow/tech/osu018/osu018_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
+flatten
+setundef -zero
+
+clean -purge
+# Output buffering
+iopadmap -outpad BUFX2 A:Y -bits
+# Cleanup
+opt
+clean
+rename -enumerate
+write_blif  -buf BUFX2 A Y top_mapped.blif
+stat
